@@ -1,0 +1,918 @@
+[option.py loaded from] /home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/option.py
+============================================================================================
+============================================================================================
+{'K_epochs': 10,
+ 'actor_h1': 128,
+ 'actor_h2': 64,
+ 'base_acc_reward': 1,
+ 'base_obvious_reward': 1,
+ 'base_penalty': 15.0,
+ 'batch_size': 36,
+ 'checkpoint_path': None,
+ 'coef_acc_reward': 13.0,
+ 'coef_base_penalty': 1.0,
+ 'coef_direction_penalty': 1.0,
+ 'coef_dtw': 1.0,
+ 'coef_obvious_reward': 20.0,
+ 'coef_search_penalty': 4.0,
+ 'device': 'cuda:0',
+ 'dim_hidden': 128,
+ 'dim_input': 2,
+ 'dim_mlp': 256,
+ 'direction_penalty': 30.0,
+ 'dropout_rate': 0.2,
+ 'dtw_path': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/dtw_matrix.txt',
+ 'dtw_weight': 1,
+ 'entropy': 0.01,
+ 'eps_clip': 0.2,
+ 'error_threhold': 0.6,
+ 'eval_only': True,
+ 'gamma': 0.6,
+ 'indices_to_add': [2],
+ 'kernel_size': 2,
+ 'load_path': 'model_rl/1209-1916-29/epoch-7.pt',
+ 'load_path_classifier': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar',
+ 'log_file': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/results_12CCs_coef/log_output/train_log/train_1124-1402-32.txt',
+ 'log_file_steps': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/results_12CCs_coef/log_steps/train_log/train_1124-1402-32.txt',
+ 'log_file_steps_test': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/results_12CCs_coef/log_steps/test_log/test_1124-1402-32.txt',
+ 'log_file_test': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/results_12CCs_coef/log_output/test_log/test_1124-1402-32.txt',
+ 'log_freq': 10,
+ 'lr_actor': 0.05,
+ 'lr_classify': 0.1,
+ 'lr_critic': 0.02,
+ 'margin': 1.2905981663049348,
+ 'max_deepth': 6,
+ 'n_epochs': 6,
+ 'num_cluster': 12,
+ 'num_envs': 20,
+ 'num_heads': 8,
+ 'num_layers': 8,
+ 'outdim_cnn': 32,
+ 'print_freq': 100,
+ 'removed_prob': 0.3,
+ 'resume': None,
+ 'rl_search_penalty': 1,
+ 'run_name': '1124-1402-32',
+ 'save_model_freq': 10,
+ 'save_path': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/model_rl/1124-1402-32',
+ 'seed': 3402,
+ 'stride': 2,
+ 'test_data_path': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20',
+ 'train': False,
+ 'train_data_path': '/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203',
+ 'train_dtw': True,
+ 'update_env_steps': 5,
+ 'update_timestep': 1,
+ 'use_cuda': True,
+ 'weight_verf': 0.00485668544506156}
+  [*] Loading model from model_rl/1209-1916-29/epoch-7.pt
+  [*] Loading classifier from /home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+dtw_path:  /home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/dtw_matrix.txt
+start test
+0it [00:00, ?it/s]tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+num_envs in select_action: 43
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([11, 10,  0,  4,  4, 11,  7, 10,  0,  8,  2,  9,  2,  4, 11, 11,  7,  7,
+         4,  6,  3,  8, 10,  5, 10,  3,  6,  3,  0,  3,  2,  9,  5, 11,  8,  1])
+max_length: 512, type: <class 'int'>
+time cost 7.708356142044067 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+1it [00:07,  7.79s/it]tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+num_envs in select_action: 43
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1,  3,  2,  5,  7,  2,  5,  7,  4,  2,  3,  9,  6,  4, 10,  5,  9,  1,
+         9,  8, 11,  9,  4, 11, 11,  7,  8,  0,  8,  6, 11,  3,  7,  8,  9, 10])
+max_length: 512, type: <class 'int'>
+time cost 7.143977165222168 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+2it [00:15,  7.46s/it]tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+num_envs in select_action: 43
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0, 11,  3,  6,  5,  9, 10,  1,  4,  6,  7,  5,  6, 10,  6, 10,  0,  2,
+        10,  3,  9, 10,  4,  5,  4,  6,  8,  3,  5,  6,  4,  3,  8,  9,  9,  1])
+max_length: 512, type: <class 'int'>
+time cost 7.145018100738525 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+3it [00:22,  7.35s/it]tensor([ 1, 10,  1,  0,  4,  7,  4,  8,  2,  3,  9,  3,  8,  1, 11,  3,  6,  4,
+         9, 10,  7,  2,  9, 10,  9,  8, 10,  5,  1, 11,  5,  2,  8,  7,  6,  3])
+num_envs in select_action: 43
+tensor([ 1, 10,  1,  0,  4,  7,  4,  8,  2,  3,  9,  3,  8,  1, 11,  3,  6,  4,
+         9, 10,  7,  2,  9, 10,  9,  8, 10,  5,  1, 11,  5,  2,  8,  7,  6,  3])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1, 10,  1,  0,  4,  7,  4,  8,  2,  3,  9,  3,  8,  1, 11,  3,  6,  4,
+         9, 10,  7,  2,  9, 10,  9,  8, 10,  5,  1, 11,  5,  2,  8,  7,  6,  3])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 1, 10,  1,  0,  4,  7,  4,  8,  2,  3,  9,  3,  8,  1, 11,  3,  6,  4,
+         9, 10,  7,  2,  9, 10,  9,  8, 10,  5,  1, 11,  5,  2,  8,  7,  6,  3])
+max_length: 512, type: <class 'int'>
+time cost 3.0668210983276367 s
+states shape: torch.Size([3, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+4it [00:25,  5.69s/it]tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+num_envs in select_action: 43
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 7,  5,  6,  5,  2,  5,  7,  5,  5,  4,  5,  6,  1,  2,  0, 11,  7,  0,
+         7,  1,  4,  0,  9,  2,  9,  3,  8,  1,  9,  5,  2,  7,  7,  3,  0,  7])
+max_length: 512, type: <class 'int'>
+time cost 7.072267770767212 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+5it [00:32,  6.22s/it]tensor([ 0,  1,  0,  2,  8,  3, 11,  0,  9,  9, 10, 10,  7,  0,  1,  1,  6,  9,
+         4,  2,  4,  0,  5,  4, 10,  6,  6,  2,  7,  1, 11,  5,  0,  3,  6,  9])
+num_envs in select_action: 43
+tensor([ 0,  1,  0,  2,  8,  3, 11,  0,  9,  9, 10, 10,  7,  0,  1,  1,  6,  9,
+         4,  2,  4,  0,  5,  4, 10,  6,  6,  2,  7,  1, 11,  5,  0,  3,  6,  9])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0,  1,  0,  2,  8,  3, 11,  0,  9,  9, 10, 10,  7,  0,  1,  1,  6,  9,
+         4,  2,  4,  0,  5,  4, 10,  6,  6,  2,  7,  1, 11,  5,  0,  3,  6,  9])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 0,  1,  0,  2,  8,  3, 11,  0,  9,  9, 10, 10,  7,  0,  1,  1,  6,  9,
+         4,  2,  4,  0,  5,  4, 10,  6,  6,  2,  7,  1, 11,  5,  0,  3,  6,  9])
+max_length: 512, type: <class 'int'>
+time cost 2.9929213523864746 s
+states shape: torch.Size([3, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+6it [00:35,  5.15s/it]tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+num_envs in select_action: 43
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 9,  5,  5,  5,  5,  9,  0,  1,  2, 11, 11, 11, 10,  3,  6,  4,  2,  6,
+        10, 10, 11,  8,  2,  9,  6, 10,  1,  6,  1,  5,  8,  1,  9,  5,  3,  0])
+max_length: 512, type: <class 'int'>
+time cost 7.057586908340454 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+7it [00:42,  5.80s/it]tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+num_envs in select_action: 43
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 4,  2,  0, 10,  1,  3,  7,  4, 11,  1,  2,  0,  2,  0,  4,  4,  2,  5,
+         3,  8,  7,  0, 11,  1,  2,  9, 10,  9,  1,  3,  0,  7, 11,  4,  1,  6])
+max_length: 512, type: <class 'int'>
+time cost 7.137507200241089 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+8it [00:49,  6.25s/it]tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+num_envs in select_action: 43
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([10,  2,  6,  2,  4,  3,  8,  0, 11,  0,  6,  7,  8,  8,  7,  8,  2,  5,
+        10,  2,  0, 11,  5,  0,  6,  8, 11,  1,  5, 11,  8, 10, 11, 10,  6,  8])
+max_length: 512, type: <class 'int'>
+time cost 7.037666082382202 s
+states shape: torch.Size([7, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+9it [00:57,  6.53s/it]tensor([ 5, 10,  6,  7,  1,  8,  0,  2,  9,  6,  4,  4,  9,  6, 11, 11,  7, 11,
+         1, 11,  1,  3, 11,  8, 10,  0,  3,  2,  6,  9,  9,  1,  3,  8,  4,  3])
+num_envs in select_action: 43
+tensor([ 5, 10,  6,  7,  1,  8,  0,  2,  9,  6,  4,  4,  9,  6, 11, 11,  7, 11,
+         1, 11,  1,  3, 11,  8, 10,  0,  3,  2,  6,  9,  9,  1,  3,  8,  4,  3])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 5, 10,  6,  7,  1,  8,  0,  2,  9,  6,  4,  4,  9,  6, 11, 11,  7, 11,
+         1, 11,  1,  3, 11,  8, 10,  0,  3,  2,  6,  9,  9,  1,  3,  8,  4,  3])
+max_length: 512, type: <class 'int'>
+num_envs in select_action: 43
+before reshape,last_action shape: torch.Size([36, 43])
+last_action shape: torch.Size([36, 43])
+action_probs shape: torch.Size([36, 43])
+tensor([ 5, 10,  6,  7,  1,  8,  0,  2,  9,  6,  4,  4,  9,  6, 11, 11,  7, 11,
+         1, 11,  1,  3, 11,  8, 10,  0,  3,  2,  6,  9,  9,  1,  3,  8,  4,  3])
+max_length: 512, type: <class 'int'>
+time cost 3.0268139839172363 s
+states shape: torch.Size([3, 36, 12])
+new tensor shape: torch.Size([1, 36, 12])
+10it [01:00,  5.47s/it]10it [01:00,  6.02s/it]
+epoch: 0
+average steps: 1.3972222222222221
+time cost 60.22818350791931 s

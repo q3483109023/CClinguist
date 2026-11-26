@@ -1,0 +1,28 @@
+# Downloaded datasets
+/downloads/
+**/data_12ccs/
+**/data_15ccs/
+**/data_upgrading/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environments
+.conda/
+.venv/
+venv/
+
+# IDE and temporary files
+.vscode/
+.idea/
+.ipynb_checkpoints/
+*.tmp
+
+# Training cache
+wandb/
+
+# Accidental terminal artifacts
+/ample*
+/eed*
