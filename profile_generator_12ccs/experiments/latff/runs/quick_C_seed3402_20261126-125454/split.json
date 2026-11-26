@@ -1,0 +1,23 @@
+{
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "train_environments": [
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_120ms_bdw_800Kbps"
+  ],
+  "validation_environments": [
+    "rtt_120ms_bdw_1000Kbps"
+  ],
+  "test_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_400Kbps"
+  ],
+  "quick": true,
+  "sample_counts": {
+    "train": 24,
+    "validation": 24,
+    "test": 24
+  },
+  "source_file_overlap": 0
+}

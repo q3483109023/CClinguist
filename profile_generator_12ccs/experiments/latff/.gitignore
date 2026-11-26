@@ -1,0 +1,3 @@
+__pycache__/
+*.pyc
+runs/**/best_model.pt

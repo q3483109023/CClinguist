@@ -1,0 +1,2 @@
+epoch,train_loss,validation_loss,validation_accuracy,validation_macro_f1
+1,0.8065981268882751,1.074235200881958,0.875,0.8722222222222222

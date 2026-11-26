@@ -1,0 +1,1194 @@
+
+========================================
+runs/full_A_seed3402_20261126-125554
+========================================
+
+========== config.json ==========
+{
+  "model": "A",
+  "seed": 3402,
+  "device": "cuda",
+  "epochs": 1,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "validation_fraction": 0.2,
+  "num_workers": 0,
+  "quick": false,
+  "quick_train_envs": 4,
+  "quick_test_envs": 2,
+  "quick_samples_per_class": 2,
+  "max_length": 512,
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "init_checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "output_root": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/experiments/latff/runs"
+}
+========== initial_checkpoint_load.json ==========
+{
+  "checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "strict": true,
+  "loaded_key_count": 123,
+  "loaded_parameter_count": 81037,
+  "model_parameter_count": 81037,
+  "missing_keys": [],
+  "unexpected_keys": []
+}
+========== split.json ==========
+{
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "train_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_160ms_bdw_1000Kbps",
+    "rtt_160ms_bdw_400Kbps",
+    "rtt_160ms_bdw_800Kbps",
+    "rtt_180ms_bdw_400Kbps",
+    "rtt_200ms_bdw_1000Kbps",
+    "rtt_200ms_bdw_400Kbps",
+    "rtt_200ms_bdw_800Kbps",
+    "rtt_220ms_bdw_400Kbps",
+    "rtt_240ms_bdw_1000Kbps",
+    "rtt_240ms_bdw_400Kbps",
+    "rtt_240ms_bdw_800Kbps",
+    "rtt_280ms_bdw_1000Kbps",
+    "rtt_280ms_bdw_400Kbps",
+    "rtt_280ms_bdw_600Kbps",
+    "rtt_280ms_bdw_800Kbps",
+    "rtt_300ms_bdw_400Kbps",
+    "rtt_320ms_bdw_400Kbps",
+    "rtt_320ms_bdw_600Kbps",
+    "rtt_340ms_bdw_400Kbps",
+    "rtt_360ms_bdw_1000Kbps",
+    "rtt_360ms_bdw_400Kbps",
+    "rtt_360ms_bdw_600Kbps",
+    "rtt_380ms_bdw_400Kbps",
+    "rtt_400ms_bdw_1000Kbps",
+    "rtt_400ms_bdw_400Kbps",
+    "rtt_400ms_bdw_600Kbps",
+    "rtt_400ms_bdw_800Kbps",
+    "rtt_420ms_bdw_400Kbps",
+    "rtt_80ms_bdw_1000Kbps",
+    "rtt_80ms_bdw_400Kbps",
+    "rtt_80ms_bdw_600Kbps",
+    "rtt_80ms_bdw_800Kbps"
+  ],
+  "validation_environments": [
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_800Kbps",
+    "rtt_160ms_bdw_600Kbps",
+    "rtt_200ms_bdw_600Kbps",
+    "rtt_240ms_bdw_600Kbps",
+    "rtt_260ms_bdw_400Kbps",
+    "rtt_320ms_bdw_1000Kbps",
+    "rtt_320ms_bdw_800Kbps",
+    "rtt_360ms_bdw_800Kbps"
+  ],
+  "test_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_120ms_bdw_800Kbps",
+    "rtt_160ms_bdw_1000Kbps",
+    "rtt_160ms_bdw_400Kbps",
+    "rtt_160ms_bdw_600Kbps",
+    "rtt_160ms_bdw_800Kbps",
+    "rtt_200ms_bdw_1000Kbps",
+    "rtt_200ms_bdw_400Kbps",
+    "rtt_200ms_bdw_600Kbps",
+    "rtt_200ms_bdw_800Kbps",
+    "rtt_240ms_bdw_1000Kbps",
+    "rtt_240ms_bdw_400Kbps",
+    "rtt_240ms_bdw_600Kbps",
+    "rtt_240ms_bdw_800Kbps",
+    "rtt_280ms_bdw_1000Kbps",
+    "rtt_280ms_bdw_400Kbps",
+    "rtt_280ms_bdw_600Kbps",
+    "rtt_280ms_bdw_800Kbps",
+    "rtt_320ms_bdw_1000Kbps",
+    "rtt_320ms_bdw_400Kbps",
+    "rtt_320ms_bdw_600Kbps",
+    "rtt_320ms_bdw_800Kbps",
+    "rtt_360ms_bdw_1000Kbps",
+    "rtt_360ms_bdw_400Kbps",
+    "rtt_360ms_bdw_600Kbps",
+    "rtt_360ms_bdw_800Kbps",
+    "rtt_400ms_bdw_1000Kbps",
+    "rtt_400ms_bdw_400Kbps",
+    "rtt_400ms_bdw_600Kbps",
+    "rtt_400ms_bdw_800Kbps"
+  ],
+  "quick": false,
+  "sample_counts": {
+    "train": 2856,
+    "validation": 756,
+    "test": 3456
+  },
+  "source_file_overlap": 0
+}
+========== epoch_metrics.csv ==========
+epoch,train_loss,validation_loss,validation_accuracy,validation_macro_f1
+1,0.493143442214704,0.542141832105776,0.8240740740740741,0.8215358210478031
+
+========== test_metrics.json ==========
+{
+  "loss": 3.373927979928407,
+  "accuracy": 0.5367476851851852,
+  "macro_f1": 0.52799317218643,
+  "per_class": {
+    "htcp": {
+      "precision": 0.4521276595744681,
+      "recall": 0.2951388888888889,
+      "f1": 0.35714285714285715,
+      "support": 288
+    },
+    "bbr": {
+      "precision": 0.720108695652174,
+      "recall": 0.9201388888888888,
+      "f1": 0.8079268292682927,
+      "support": 288
+    },
+    "vegas": {
+      "precision": 0.4052132701421801,
+      "recall": 0.59375,
+      "f1": 0.48169014084507045,
+      "support": 288
+    },
+    "westwood": {
+      "precision": 0.47076023391812866,
+      "recall": 0.5590277777777778,
+      "f1": 0.5111111111111111,
+      "support": 288
+    },
+    "scalable": {
+      "precision": 0.5369127516778524,
+      "recall": 0.5555555555555556,
+      "f1": 0.5460750853242321,
+      "support": 288
+    },
+    "highspeed": {
+      "precision": 0.3170731707317073,
+      "recall": 0.4965277777777778,
+      "f1": 0.3870094722598105,
+      "support": 288
+    },
+    "veno": {
+      "precision": 0.644927536231884,
+      "recall": 0.3090277777777778,
+      "f1": 0.41784037558685444,
+      "support": 288
+    },
+    "reno": {
+      "precision": 0.5100671140939598,
+      "recall": 0.2638888888888889,
+      "f1": 0.34782608695652173,
+      "support": 288
+    },
+    "yeah": {
+      "precision": 0.5699481865284974,
+      "recall": 0.3819444444444444,
+      "f1": 0.4573804573804574,
+      "support": 288
+    },
+    "illinois": {
+      "precision": 0.6746575342465754,
+      "recall": 0.6840277777777778,
+      "f1": 0.6793103448275862,
+      "support": 288
+    },
+    "bic": {
+      "precision": 0.74822695035461,
+      "recall": 0.7326388888888888,
+      "f1": 0.7403508771929824,
+      "support": 288
+    },
+    "cubic": {
+      "precision": 0.5615615615615616,
+      "recall": 0.6493055555555556,
+      "f1": 0.6022544283413849,
+      "support": 288
+    }
+  },
+  "confusion_matrix": [
+    [
+      85,
+      9,
+      11,
+      58,
+      0,
+      73,
+      7,
+      23,
+      0,
+      12,
+      0,
+      10
+    ],
+    [
+      1,
+      265,
+      1,
+      13,
+      3,
+      0,
+      0,
+      0,
+      5,
+      0,
+      0,
+      0
+    ],
+    [
+      19,
+      1,
+      171,
+      22,
+      4,
+      50,
+      5,
+      4,
+      0,
+      1,
+      0,
+      11
+    ],
+    [
+      18,
+      6,
+      48,
+      161,
+      4,
+      32,
+      2,
+      4,
+      0,
+      5,
+      1,
+      7
+    ],
+    [
+      0,
+      39,
+      8,
+      0,
+      160,
+      0,
+      0,
+      0,
+      61,
+      0,
+      9,
+      11
+    ],
+    [
+      22,
+      1,
+      47,
+      20,
+      2,
+      143,
+      11,
+      21,
+      0,
+      13,
+      1,
+      7
+    ],
+    [
+      23,
+      5,
+      48,
+      28,
+      3,
+      65,
+      89,
+      9,
+      1,
+      7,
+      0,
+      10
+    ],
+    [
+      19,
+      3,
+      50,
+      35,
+      3,
+      74,
+      11,
+      76,
+      0,
+      4,
+      5,
+      8
+    ],
+    [
+      0,
+      36,
+      8,
+      0,
+      99,
+      0,
+      0,
+      0,
+      110,
+      6,
+      13,
+      16
+    ],
+    [
+      1,
+      1,
+      11,
+      1,
+      7,
+      5,
+      6,
+      7,
+      1,
+      197,
+      12,
+      39
+    ],
+    [
+      0,
+      1,
+      1,
+      0,
+      13,
+      7,
+      0,
+      5,
+      10,
+      13,
+      211,
+      27
+    ],
+    [
+      0,
+      1,
+      18,
+      4,
+      0,
+      2,
+      7,
+      0,
+      5,
+      34,
+      30,
+      187
+    ]
+  ]
+}
+========== test_confusion_matrix.csv ==========
+true\predicted,htcp,bbr,vegas,westwood,scalable,highspeed,veno,reno,yeah,illinois,bic,cubic
+htcp,85,9,11,58,0,73,7,23,0,12,0,10
+bbr,1,265,1,13,3,0,0,0,5,0,0,0
+vegas,19,1,171,22,4,50,5,4,0,1,0,11
+westwood,18,6,48,161,4,32,2,4,0,5,1,7
+scalable,0,39,8,0,160,0,0,0,61,0,9,11
+highspeed,22,1,47,20,2,143,11,21,0,13,1,7
+veno,23,5,48,28,3,65,89,9,1,7,0,10
+reno,19,3,50,35,3,74,11,76,0,4,5,8
+yeah,0,36,8,0,99,0,0,0,110,6,13,16
+illinois,1,1,11,1,7,5,6,7,1,197,12,39
+bic,0,1,1,0,13,7,0,5,10,13,211,27
+cubic,0,1,18,4,0,2,7,0,5,34,30,187
+
+========================================
+runs/full_B_seed3402_20261126-125948
+========================================
+
+========== config.json ==========
+{
+  "model": "B",
+  "seed": 3402,
+  "device": "cuda",
+  "epochs": 1,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "validation_fraction": 0.2,
+  "num_workers": 0,
+  "quick": false,
+  "quick_train_envs": 4,
+  "quick_test_envs": 2,
+  "quick_samples_per_class": 2,
+  "max_length": 512,
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "init_checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "output_root": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/experiments/latff/runs"
+}
+========== initial_checkpoint_load.json ==========
+{
+  "checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "strict": true,
+  "loaded_key_count": 123,
+  "loaded_parameter_count": 81037,
+  "model_parameter_count": 81037,
+  "missing_keys": [],
+  "unexpected_keys": []
+}
+========== split.json ==========
+{
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "train_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_160ms_bdw_1000Kbps",
+    "rtt_160ms_bdw_400Kbps",
+    "rtt_160ms_bdw_800Kbps",
+    "rtt_180ms_bdw_400Kbps",
+    "rtt_200ms_bdw_1000Kbps",
+    "rtt_200ms_bdw_400Kbps",
+    "rtt_200ms_bdw_800Kbps",
+    "rtt_220ms_bdw_400Kbps",
+    "rtt_240ms_bdw_1000Kbps",
+    "rtt_240ms_bdw_400Kbps",
+    "rtt_240ms_bdw_800Kbps",
+    "rtt_280ms_bdw_1000Kbps",
+    "rtt_280ms_bdw_400Kbps",
+    "rtt_280ms_bdw_600Kbps",
+    "rtt_280ms_bdw_800Kbps",
+    "rtt_300ms_bdw_400Kbps",
+    "rtt_320ms_bdw_400Kbps",
+    "rtt_320ms_bdw_600Kbps",
+    "rtt_340ms_bdw_400Kbps",
+    "rtt_360ms_bdw_1000Kbps",
+    "rtt_360ms_bdw_400Kbps",
+    "rtt_360ms_bdw_600Kbps",
+    "rtt_380ms_bdw_400Kbps",
+    "rtt_400ms_bdw_1000Kbps",
+    "rtt_400ms_bdw_400Kbps",
+    "rtt_400ms_bdw_600Kbps",
+    "rtt_400ms_bdw_800Kbps",
+    "rtt_420ms_bdw_400Kbps",
+    "rtt_80ms_bdw_1000Kbps",
+    "rtt_80ms_bdw_400Kbps",
+    "rtt_80ms_bdw_600Kbps",
+    "rtt_80ms_bdw_800Kbps"
+  ],
+  "validation_environments": [
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_800Kbps",
+    "rtt_160ms_bdw_600Kbps",
+    "rtt_200ms_bdw_600Kbps",
+    "rtt_240ms_bdw_600Kbps",
+    "rtt_260ms_bdw_400Kbps",
+    "rtt_320ms_bdw_1000Kbps",
+    "rtt_320ms_bdw_800Kbps",
+    "rtt_360ms_bdw_800Kbps"
+  ],
+  "test_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_120ms_bdw_800Kbps",
+    "rtt_160ms_bdw_1000Kbps",
+    "rtt_160ms_bdw_400Kbps",
+    "rtt_160ms_bdw_600Kbps",
+    "rtt_160ms_bdw_800Kbps",
+    "rtt_200ms_bdw_1000Kbps",
+    "rtt_200ms_bdw_400Kbps",
+    "rtt_200ms_bdw_600Kbps",
+    "rtt_200ms_bdw_800Kbps",
+    "rtt_240ms_bdw_1000Kbps",
+    "rtt_240ms_bdw_400Kbps",
+    "rtt_240ms_bdw_600Kbps",
+    "rtt_240ms_bdw_800Kbps",
+    "rtt_280ms_bdw_1000Kbps",
+    "rtt_280ms_bdw_400Kbps",
+    "rtt_280ms_bdw_600Kbps",
+    "rtt_280ms_bdw_800Kbps",
+    "rtt_320ms_bdw_1000Kbps",
+    "rtt_320ms_bdw_400Kbps",
+    "rtt_320ms_bdw_600Kbps",
+    "rtt_320ms_bdw_800Kbps",
+    "rtt_360ms_bdw_1000Kbps",
+    "rtt_360ms_bdw_400Kbps",
+    "rtt_360ms_bdw_600Kbps",
+    "rtt_360ms_bdw_800Kbps",
+    "rtt_400ms_bdw_1000Kbps",
+    "rtt_400ms_bdw_400Kbps",
+    "rtt_400ms_bdw_600Kbps",
+    "rtt_400ms_bdw_800Kbps"
+  ],
+  "quick": false,
+  "sample_counts": {
+    "train": 2856,
+    "validation": 756,
+    "test": 3456
+  },
+  "source_file_overlap": 0
+}
+========== epoch_metrics.csv ==========
+epoch,train_loss,validation_loss,validation_accuracy,validation_macro_f1
+1,0.5270672420493695,0.5866493792248466,0.8095238095238095,0.8089482272151044
+
+========== test_metrics.json ==========
+{
+  "loss": 3.3741355910897255,
+  "accuracy": 0.5399305555555556,
+  "macro_f1": 0.532125939060294,
+  "per_class": {
+    "htcp": {
+      "precision": 0.4734042553191489,
+      "recall": 0.3090277777777778,
+      "f1": 0.3739495798319328,
+      "support": 288
+    },
+    "bbr": {
+      "precision": 0.8035190615835777,
+      "recall": 0.9513888888888888,
+      "f1": 0.8712241653418124,
+      "support": 288
+    },
+    "vegas": {
+      "precision": 0.4201474201474201,
+      "recall": 0.59375,
+      "f1": 0.4920863309352518,
+      "support": 288
+    },
+    "westwood": {
+      "precision": 0.5101351351351351,
+      "recall": 0.5243055555555556,
+      "f1": 0.5171232876712328,
+      "support": 288
+    },
+    "scalable": {
+      "precision": 0.5232198142414861,
+      "recall": 0.5868055555555556,
+      "f1": 0.5531914893617021,
+      "support": 288
+    },
+    "highspeed": {
+      "precision": 0.3421750663129973,
+      "recall": 0.4479166666666667,
+      "f1": 0.3879699248120301,
+      "support": 288
+    },
+    "veno": {
+      "precision": 0.5023923444976076,
+      "recall": 0.3645833333333333,
+      "f1": 0.4225352112676056,
+      "support": 288
+    },
+    "reno": {
+      "precision": 0.39080459770114945,
+      "recall": 0.2361111111111111,
+      "f1": 0.2943722943722944,
+      "support": 288
+    },
+    "yeah": {
+      "precision": 0.5615384615384615,
+      "recall": 0.5069444444444444,
+      "f1": 0.5328467153284672,
+      "support": 288
+    },
+    "illinois": {
+      "precision": 0.6899563318777293,
+      "recall": 0.5486111111111112,
+      "f1": 0.6112185686653772,
+      "support": 288
+    },
+    "bic": {
+      "precision": 0.7173144876325088,
+      "recall": 0.7048611111111112,
+      "f1": 0.7110332749562172,
+      "support": 288
+    },
+    "cubic": {
+      "precision": 0.5501355013550135,
+      "recall": 0.7048611111111112,
+      "f1": 0.6179604261796042,
+      "support": 288
+    }
+  },
+  "confusion_matrix": [
+    [
+      89,
+      11,
+      9,
+      49,
+      1,
+      55,
+      21,
+      32,
+      0,
+      8,
+      2,
+      11
+    ],
+    [
+      0,
+      274,
+      0,
+      1,
+      8,
+      0,
+      0,
+      1,
+      4,
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      1,
+      171,
+      16,
+      5,
+      39,
+      13,
+      13,
+      0,
+      1,
+      0,
+      8
+    ],
+    [
+      11,
+      11,
+      46,
+      151,
+      7,
+      25,
+      7,
+      18,
+      0,
+      4,
+      1,
+      7
+    ],
+    [
+      0,
+      13,
+      8,
+      0,
+      169,
+      0,
+      0,
+      0,
+      84,
+      0,
+      4,
+      10
+    ],
+    [
+      22,
+      3,
+      52,
+      14,
+      2,
+      129,
+      22,
+      23,
+      0,
+      14,
+      0,
+      7
+    ],
+    [
+      22,
+      6,
+      43,
+      24,
+      3,
+      50,
+      105,
+      13,
+      1,
+      6,
+      0,
+      15
+    ],
+    [
+      22,
+      3,
+      48,
+      32,
+      4,
+      66,
+      19,
+      68,
+      0,
+      13,
+      4,
+      9
+    ],
+    [
+      0,
+      16,
+      8,
+      0,
+      86,
+      0,
+      0,
+      0,
+      146,
+      3,
+      15,
+      14
+    ],
+    [
+      0,
+      2,
+      9,
+      2,
+      10,
+      7,
+      16,
+      4,
+      4,
+      158,
+      22,
+      54
+    ],
+    [
+      0,
+      1,
+      0,
+      3,
+      22,
+      5,
+      3,
+      2,
+      11,
+      7,
+      203,
+      31
+    ],
+    [
+      1,
+      0,
+      13,
+      4,
+      6,
+      1,
+      3,
+      0,
+      10,
+      15,
+      32,
+      203
+    ]
+  ]
+}
+========== test_confusion_matrix.csv ==========
+true\predicted,htcp,bbr,vegas,westwood,scalable,highspeed,veno,reno,yeah,illinois,bic,cubic
+htcp,89,11,9,49,1,55,21,32,0,8,2,11
+bbr,0,274,0,1,8,0,0,1,4,0,0,0
+vegas,21,1,171,16,5,39,13,13,0,1,0,8
+westwood,11,11,46,151,7,25,7,18,0,4,1,7
+scalable,0,13,8,0,169,0,0,0,84,0,4,10
+highspeed,22,3,52,14,2,129,22,23,0,14,0,7
+veno,22,6,43,24,3,50,105,13,1,6,0,15
+reno,22,3,48,32,4,66,19,68,0,13,4,9
+yeah,0,16,8,0,86,0,0,0,146,3,15,14
+illinois,0,2,9,2,10,7,16,4,4,158,22,54
+bic,0,1,0,3,22,5,3,2,11,7,203,31
+cubic,1,0,13,4,6,1,3,0,10,15,32,203
+
+========================================
+runs/full_C_seed3402_20261126-130341
+========================================
+
+========== config.json ==========
+{
+  "model": "C",
+  "seed": 3402,
+  "device": "cuda",
+  "epochs": 1,
+  "batch_size": 32,
+  "learning_rate": 0.0001,
+  "weight_decay": 0.0,
+  "validation_fraction": 0.2,
+  "num_workers": 0,
+  "quick": false,
+  "quick_train_envs": 4,
+  "quick_test_envs": 2,
+  "quick_samples_per_class": 2,
+  "max_length": 512,
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "init_checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "output_root": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/experiments/latff/runs"
+}
+========== initial_checkpoint_load.json ==========
+{
+  "checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "strict": false,
+  "loaded_key_count": 123,
+  "loaded_parameter_count": 81037,
+  "model_parameter_count": 81043,
+  "missing_keys": [
+    "gate.bias",
+    "gate.weight"
+  ],
+  "unexpected_keys": []
+}
+========== split.json ==========
+{
+  "train_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "train_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_160ms_bdw_1000Kbps",
+    "rtt_160ms_bdw_400Kbps",
+    "rtt_160ms_bdw_800Kbps",
+    "rtt_180ms_bdw_400Kbps",
+    "rtt_200ms_bdw_1000Kbps",
+    "rtt_200ms_bdw_400Kbps",
+    "rtt_200ms_bdw_800Kbps",
+    "rtt_220ms_bdw_400Kbps",
+    "rtt_240ms_bdw_1000Kbps",
+    "rtt_240ms_bdw_400Kbps",
+    "rtt_240ms_bdw_800Kbps",
+    "rtt_280ms_bdw_1000Kbps",
+    "rtt_280ms_bdw_400Kbps",
+    "rtt_280ms_bdw_600Kbps",
+    "rtt_280ms_bdw_800Kbps",
+    "rtt_300ms_bdw_400Kbps",
+    "rtt_320ms_bdw_400Kbps",
+    "rtt_320ms_bdw_600Kbps",
+    "rtt_340ms_bdw_400Kbps",
+    "rtt_360ms_bdw_1000Kbps",
+    "rtt_360ms_bdw_400Kbps",
+    "rtt_360ms_bdw_600Kbps",
+    "rtt_380ms_bdw_400Kbps",
+    "rtt_400ms_bdw_1000Kbps",
+    "rtt_400ms_bdw_400Kbps",
+    "rtt_400ms_bdw_600Kbps",
+    "rtt_400ms_bdw_800Kbps",
+    "rtt_420ms_bdw_400Kbps",
+    "rtt_80ms_bdw_1000Kbps",
+    "rtt_80ms_bdw_400Kbps",
+    "rtt_80ms_bdw_600Kbps",
+    "rtt_80ms_bdw_800Kbps"
+  ],
+  "validation_environments": [
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_800Kbps",
+    "rtt_160ms_bdw_600Kbps",
+    "rtt_200ms_bdw_600Kbps",
+    "rtt_240ms_bdw_600Kbps",
+    "rtt_260ms_bdw_400Kbps",
+    "rtt_320ms_bdw_1000Kbps",
+    "rtt_320ms_bdw_800Kbps",
+    "rtt_360ms_bdw_800Kbps"
+  ],
+  "test_environments": [
+    "rtt_120ms_bdw_1000Kbps",
+    "rtt_120ms_bdw_400Kbps",
+    "rtt_120ms_bdw_600Kbps",
+    "rtt_120ms_bdw_800Kbps",
+    "rtt_160ms_bdw_1000Kbps",
+    "rtt_160ms_bdw_400Kbps",
+    "rtt_160ms_bdw_600Kbps",
+    "rtt_160ms_bdw_800Kbps",
+    "rtt_200ms_bdw_1000Kbps",
+    "rtt_200ms_bdw_400Kbps",
+    "rtt_200ms_bdw_600Kbps",
+    "rtt_200ms_bdw_800Kbps",
+    "rtt_240ms_bdw_1000Kbps",
+    "rtt_240ms_bdw_400Kbps",
+    "rtt_240ms_bdw_600Kbps",
+    "rtt_240ms_bdw_800Kbps",
+    "rtt_280ms_bdw_1000Kbps",
+    "rtt_280ms_bdw_400Kbps",
+    "rtt_280ms_bdw_600Kbps",
+    "rtt_280ms_bdw_800Kbps",
+    "rtt_320ms_bdw_1000Kbps",
+    "rtt_320ms_bdw_400Kbps",
+    "rtt_320ms_bdw_600Kbps",
+    "rtt_320ms_bdw_800Kbps",
+    "rtt_360ms_bdw_1000Kbps",
+    "rtt_360ms_bdw_400Kbps",
+    "rtt_360ms_bdw_600Kbps",
+    "rtt_360ms_bdw_800Kbps",
+    "rtt_400ms_bdw_1000Kbps",
+    "rtt_400ms_bdw_400Kbps",
+    "rtt_400ms_bdw_600Kbps",
+    "rtt_400ms_bdw_800Kbps"
+  ],
+  "quick": false,
+  "sample_counts": {
+    "train": 2856,
+    "validation": 756,
+    "test": 3456
+  },
+  "source_file_overlap": 0
+}
+========== epoch_metrics.csv ==========
+epoch,train_loss,validation_loss,validation_accuracy,validation_macro_f1
+1,0.5278644658604256,0.5871183023290344,0.8108465608465608,0.8111515831106377
+
+========== test_metrics.json ==========
+{
+  "loss": 3.3810089489928,
+  "accuracy": 0.5407986111111112,
+  "macro_f1": 0.532842927470866,
+  "per_class": {
+    "htcp": {
+      "precision": 0.4756756756756757,
+      "recall": 0.3055555555555556,
+      "f1": 0.37209302325581395,
+      "support": 288
+    },
+    "bbr": {
+      "precision": 0.8,
+      "recall": 0.9583333333333334,
+      "f1": 0.8720379146919431,
+      "support": 288
+    },
+    "vegas": {
+      "precision": 0.4207920792079208,
+      "recall": 0.5902777777777778,
+      "f1": 0.4913294797687861,
+      "support": 288
+    },
+    "westwood": {
+      "precision": 0.5049833887043189,
+      "recall": 0.5277777777777778,
+      "f1": 0.5161290322580645,
+      "support": 288
+    },
+    "scalable": {
+      "precision": 0.5327102803738317,
+      "recall": 0.59375,
+      "f1": 0.5615763546798029,
+      "support": 288
+    },
+    "highspeed": {
+      "precision": 0.3404255319148936,
+      "recall": 0.4444444444444444,
+      "f1": 0.3855421686746988,
+      "support": 288
+    },
+    "veno": {
+      "precision": 0.47685185185185186,
+      "recall": 0.3576388888888889,
+      "f1": 0.4087301587301587,
+      "support": 288
+    },
+    "reno": {
+      "precision": 0.4117647058823529,
+      "recall": 0.24305555555555555,
+      "f1": 0.3056768558951965,
+      "support": 288
+    },
+    "yeah": {
+      "precision": 0.5719844357976653,
+      "recall": 0.5104166666666666,
+      "f1": 0.5394495412844037,
+      "support": 288
+    },
+    "illinois": {
+      "precision": 0.6986899563318777,
+      "recall": 0.5555555555555556,
+      "f1": 0.6189555125725339,
+      "support": 288
+    },
+    "bic": {
+      "precision": 0.7147887323943662,
+      "recall": 0.7048611111111112,
+      "f1": 0.7097902097902098,
+      "support": 288
+    },
+    "cubic": {
+      "precision": 0.5461956521739131,
+      "recall": 0.6979166666666666,
+      "f1": 0.6128048780487805,
+      "support": 288
+    }
+  },
+  "confusion_matrix": [
+    [
+      88,
+      11,
+      9,
+      48,
+      1,
+      55,
+      22,
+      33,
+      0,
+      8,
+      1,
+      12
+    ],
+    [
+      0,
+      276,
+      0,
+      1,
+      6,
+      1,
+      0,
+      1,
+      3,
+      0,
+      0,
+      0
+    ],
+    [
+      21,
+      1,
+      170,
+      16,
+      5,
+      39,
+      15,
+      12,
+      0,
+      1,
+      0,
+      8
+    ],
+    [
+      11,
+      11,
+      46,
+      152,
+      7,
+      24,
+      10,
+      15,
+      0,
+      4,
+      1,
+      7
+    ],
+    [
+      0,
+      14,
+      8,
+      0,
+      171,
+      0,
+      0,
+      0,
+      81,
+      0,
+      4,
+      10
+    ],
+    [
+      22,
+      3,
+      51,
+      15,
+      2,
+      128,
+      23,
+      23,
+      0,
+      14,
+      0,
+      7
+    ],
+    [
+      20,
+      6,
+      43,
+      28,
+      3,
+      53,
+      103,
+      10,
+      1,
+      6,
+      0,
+      15
+    ],
+    [
+      22,
+      3,
+      47,
+      32,
+      4,
+      63,
+      20,
+      70,
+      0,
+      13,
+      5,
+      9
+    ],
+    [
+      0,
+      17,
+      8,
+      0,
+      84,
+      0,
+      0,
+      0,
+      147,
+      3,
+      14,
+      15
+    ],
+    [
+      0,
+      2,
+      9,
+      2,
+      10,
+      7,
+      16,
+      3,
+      4,
+      160,
+      22,
+      53
+    ],
+    [
+      0,
+      1,
+      0,
+      3,
+      23,
+      5,
+      3,
+      2,
+      11,
+      6,
+      203,
+      31
+    ],
+    [
+      1,
+      0,
+      13,
+      4,
+      5,
+      1,
+      4,
+      1,
+      10,
+      14,
+      34,
+      201
+    ]
+  ]
+}
+========== test_confusion_matrix.csv ==========
+true\predicted,htcp,bbr,vegas,westwood,scalable,highspeed,veno,reno,yeah,illinois,bic,cubic
+htcp,88,11,9,48,1,55,22,33,0,8,1,12
+bbr,0,276,0,1,6,1,0,1,3,0,0,0
+vegas,21,1,170,16,5,39,15,12,0,1,0,8
+westwood,11,11,46,152,7,24,10,15,0,4,1,7
+scalable,0,14,8,0,171,0,0,0,81,0,4,10
+highspeed,22,3,51,15,2,128,23,23,0,14,0,7
+veno,20,6,43,28,3,53,103,10,1,6,0,15
+reno,22,3,47,32,4,63,20,70,0,13,5,9
+yeah,0,17,8,0,84,0,0,0,147,3,14,15
+illinois,0,2,9,2,10,7,16,3,4,160,22,53
+bic,0,1,0,3,23,5,3,2,11,6,203,31
+cubic,1,0,13,4,5,1,4,1,10,14,34,201

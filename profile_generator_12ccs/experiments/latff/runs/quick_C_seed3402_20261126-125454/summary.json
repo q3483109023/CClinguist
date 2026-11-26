@@ -1,0 +1,10 @@
+{
+  "device": "cuda",
+  "best_epoch": 1,
+  "best_validation_macro_f1": 0.8722222222222222,
+  "test_loss": 0.7294092774391174,
+  "test_accuracy": 0.875,
+  "test_macro_f1": 0.8666666666666667,
+  "checkpoint_reloaded": true,
+  "checkpoint_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/experiments/latff/runs/quick_C_seed3402_20261126-125454/best_model.pt"
+}

@@ -1,0 +1,9 @@
+{
+  "checkpoint": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "strict": true,
+  "loaded_key_count": 123,
+  "loaded_parameter_count": 81037,
+  "model_parameter_count": 81037,
+  "missing_keys": [],
+  "unexpected_keys": []
+}

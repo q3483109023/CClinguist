@@ -1,0 +1,340 @@
+{
+  "samples": [
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "htcp",
+      "label": 0,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_htcp_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_htcp_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "htcp",
+      "label": 0,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_htcp_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_htcp_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bbr",
+      "label": 1,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_bbr_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_bbr_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bbr",
+      "label": 1,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_bbr_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_bbr_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 496
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "vegas",
+      "label": 2,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_vegas_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_vegas_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "vegas",
+      "label": 2,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_vegas_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_vegas_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "westwood",
+      "label": 3,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_westwood_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_westwood_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "westwood",
+      "label": 3,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_westwood_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_westwood_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "scalable",
+      "label": 4,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_scalable_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_scalable_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "scalable",
+      "label": 4,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_scalable_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_scalable_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "highspeed",
+      "label": 5,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_highspeed_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_highspeed_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "highspeed",
+      "label": 5,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_highspeed_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_highspeed_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "veno",
+      "label": 6,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_veno_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_veno_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "veno",
+      "label": 6,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_veno_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_veno_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "reno",
+      "label": 7,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_reno_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_reno_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "reno",
+      "label": 7,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_reno_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_reno_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "yeah",
+      "label": 8,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_yeah_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_yeah_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "yeah",
+      "label": 8,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_yeah_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_yeah_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "illinois",
+      "label": 9,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_illinois_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_illinois_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "illinois",
+      "label": 9,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_illinois_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_illinois_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bic",
+      "label": 10,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_bic_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_bic_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bic",
+      "label": 10,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_bic_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_bic_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "cubic",
+      "label": 11,
+      "sample_index": 0,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_cubic_0.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_cubic_0.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "test",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "cubic",
+      "label": 11,
+      "sample_index": 1,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/host_cubic_1.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20/rtt_120ms_bdw_1000Kbps/capture_cubic_1.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    }
+  ]
+}

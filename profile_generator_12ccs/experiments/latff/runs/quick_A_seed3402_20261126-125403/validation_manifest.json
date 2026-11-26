@@ -1,0 +1,340 @@
+{
+  "samples": [
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "htcp",
+      "label": 0,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_htcp_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_htcp_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "htcp",
+      "label": 0,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_htcp_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_htcp_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bbr",
+      "label": 1,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_bbr_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_bbr_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bbr",
+      "label": 1,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_bbr_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_bbr_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "vegas",
+      "label": 2,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_vegas_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_vegas_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "vegas",
+      "label": 2,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_vegas_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_vegas_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "westwood",
+      "label": 3,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_westwood_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_westwood_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "westwood",
+      "label": 3,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_westwood_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_westwood_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "scalable",
+      "label": 4,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_scalable_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_scalable_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "scalable",
+      "label": 4,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_scalable_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_scalable_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "highspeed",
+      "label": 5,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_highspeed_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_highspeed_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "highspeed",
+      "label": 5,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_highspeed_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_highspeed_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "veno",
+      "label": 6,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_veno_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_veno_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "veno",
+      "label": 6,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_veno_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_veno_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "reno",
+      "label": 7,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_reno_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_reno_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "reno",
+      "label": 7,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_reno_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_reno_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "yeah",
+      "label": 8,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_yeah_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_yeah_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "yeah",
+      "label": 8,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_yeah_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_yeah_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "illinois",
+      "label": 9,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_illinois_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_illinois_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "illinois",
+      "label": 9,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_illinois_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_illinois_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bic",
+      "label": 10,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_bic_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_bic_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "bic",
+      "label": 10,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_bic_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_bic_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "cubic",
+      "label": 11,
+      "sample_index": 2,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_cubic_2.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_cubic_2.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    },
+    {
+      "split": "validation",
+      "environment": "rtt_120ms_bdw_1000Kbps",
+      "label_name": "cubic",
+      "label": 11,
+      "sample_index": 3,
+      "host_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/host_cubic_3.csv",
+      "capture_path": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203/rtt_120ms_bdw_1000Kbps/capture_cubic_3.csv",
+      "env_feature": [
+        120.0,
+        1000.0
+      ],
+      "length": 512
+    }
+  ]
+}
