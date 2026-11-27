@@ -1,0 +1,98 @@
+nohup: 忽略输入
+========== GPU 1 | SEED 3403 | baseline ==========
+TRAIN START: 2026年 11月 27日 星期五 21:10:07 CST
+[CACHE] HIT train.pt shape=(16, 105, 15) elapsed=0.072s
+[MEF] EPOCH {"n": 1680, "accuracy": 0.7714285714285715, "macro_f1": 0.7710096803590643, "mean_steps": 2.760119047619048, "multi_n": 703, "multi_accuracy": 0.5533428165007113, "wrong_elimination_rate": 0.008928571428571428, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.6666666666666666, "epoch": 1, "elapsed_s": 39.024631139822304, "actor_loss": -0.0014848689563532777, "critic_loss": 19.546681424404714, "actor_grad_max": 1.1942434310913086, "critic_grad_max": 251.50514221191406}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.8910714285714286, "macro_f1": 0.8853092181060267, "mean_steps": 1.7845238095238096, "multi_n": 703, "multi_accuracy": 0.8392603129445235, "wrong_elimination_rate": 0.004761904761904762, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 2, "elapsed_s": 31.45394458109513, "actor_loss": -0.07297948246544346, "critic_loss": 14.629936177679832, "actor_grad_max": 1.5621258020401, "critic_grad_max": 160.5921173095703}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9178571428571428, "macro_f1": 0.9099239528968164, "mean_steps": 1.5071428571428571, "multi_n": 703, "multi_accuracy": 0.903271692745377, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 3, "elapsed_s": 26.66548130987212, "actor_loss": -0.07013255180394713, "critic_loss": 11.055652354625945, "actor_grad_max": 1.8527543544769287, "critic_grad_max": 125.61229705810547}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9184523809523809, "macro_f1": 0.9097619462288308, "mean_steps": 1.4958333333333333, "multi_n": 703, "multi_accuracy": 0.9046941678520626, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 4, "elapsed_s": 26.35021808370948, "actor_loss": -0.05307742492097648, "critic_loss": 10.317471676684441, "actor_grad_max": 0.9393098950386047, "critic_grad_max": 116.8994140625}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9220238095238096, "macro_f1": 0.9152251352517343, "mean_steps": 1.4946428571428572, "multi_n": 703, "multi_accuracy": 0.9132290184921764, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 5, "elapsed_s": 23.530284216161817, "actor_loss": -0.0460789154105364, "critic_loss": 10.146083679605038, "actor_grad_max": 2.4253759384155273, "critic_grad_max": 105.87245178222656}
+[MEF] ALL PASS
+TEST START: 2026年 11月 27日 星期五 21:12:40 CST
+[CACHE] HIT test-0.pt shape=(16, 15, 15) elapsed=0.075s
+[CACHE] HIT test-1.pt shape=(16, 15, 15) elapsed=0.007s
+[CACHE] HIT test-2.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-3.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-4.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-5.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-6.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-7.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-8.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-9.pt shape=(16, 15, 15) elapsed=0.005s
+[MEF] FINAL {"n": 2400, "accuracy": 0.7391666666666666, "macro_f1": 0.7279732959150068, "mean_steps": 1.7245833333333334, "multi_n": 1129, "multi_accuracy": 0.650132860938884, "wrong_elimination_rate": 0.052083333333333336, "first_accuracy": 0.59125, "voting_accuracy": 0.7333333333333333, "e1_voting_accuracy": 0.7333333333333333}
+[MEF] ALL PASS
+COMPLETED: GPU=1 SEED=3403 MODE=baseline
+FINISH TIME: 2026年 11月 27日 星期五 21:12:46 CST
+========== GPU 1 | SEED 3403 | no_mask ==========
+TRAIN START: 2026年 11月 27日 星期五 21:12:46 CST
+[CACHE] HIT train.pt shape=(16, 105, 15) elapsed=0.068s
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9214285714285714, "macro_f1": 0.913935354939314, "mean_steps": 1.5940476190476192, "multi_n": 703, "multi_accuracy": 0.9118065433854907, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 1, "elapsed_s": 29.60170139418915, "actor_loss": -0.06503428391953732, "critic_loss": 13.277637623726054, "actor_grad_max": 2.2216248512268066, "critic_grad_max": 161.9716033935547}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9339285714285714, "macro_f1": 0.9295692044130981, "mean_steps": 1.5416666666666667, "multi_n": 703, "multi_accuracy": 0.9416785206258891, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 2, "elapsed_s": 27.852858209982514, "actor_loss": -0.04883586421133356, "critic_loss": 10.86949298736897, "actor_grad_max": 2.2467148303985596, "critic_grad_max": 118.98556518554688}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9398809523809524, "macro_f1": 0.9362171159340303, "mean_steps": 1.5309523809523808, "multi_n": 703, "multi_accuracy": 0.9559032716927454, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 3, "elapsed_s": 26.62559562874958, "actor_loss": -0.043325967304012246, "critic_loss": 9.79888784124496, "actor_grad_max": 1.8027230501174927, "critic_grad_max": 81.59619903564453}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9392857142857143, "macro_f1": 0.935936333861039, "mean_steps": 1.5291666666666666, "multi_n": 703, "multi_accuracy": 0.9544807965860598, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 4, "elapsed_s": 26.97657652804628, "actor_loss": -0.0374228100123954, "critic_loss": 9.681524672406786, "actor_grad_max": 2.018761396408081, "critic_grad_max": 109.03633880615234}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9416666666666667, "macro_f1": 0.9387815707391554, "mean_steps": 1.5285714285714285, "multi_n": 703, "multi_accuracy": 0.9601706970128022, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 5, "elapsed_s": 25.308532061055303, "actor_loss": -0.03908498971623943, "critic_loss": 9.632789388616034, "actor_grad_max": 0.4925786554813385, "critic_grad_max": 113.18348693847656}
+[MEF] ALL PASS
+TEST START: 2026年 11月 27日 星期五 21:15:09 CST
+[CACHE] HIT test-0.pt shape=(16, 15, 15) elapsed=0.071s
+[CACHE] HIT test-1.pt shape=(16, 15, 15) elapsed=0.006s
+[CACHE] HIT test-2.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-3.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-4.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-5.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-6.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-7.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-8.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-9.pt shape=(16, 15, 15) elapsed=0.005s
+[MEF] FINAL {"n": 2400, "accuracy": 0.7658333333333334, "macro_f1": 0.7592649023948537, "mean_steps": 1.76875, "multi_n": 1129, "multi_accuracy": 0.7068201948627104, "wrong_elimination_rate": 0.0, "first_accuracy": 0.59125, "voting_accuracy": 0.7333333333333333, "e1_voting_accuracy": 0.7666666666666668}
+[MEF] ALL PASS
+COMPLETED: GPU=1 SEED=3403 MODE=no_mask
+FINISH TIME: 2026年 11月 27日 星期五 21:15:15 CST
+========== GPU 1 | SEED 3403 | fusion_mask ==========
+TRAIN START: 2026年 11月 27日 星期五 21:15:15 CST
+[CACHE] HIT train.pt shape=(16, 105, 15) elapsed=0.064s
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9214285714285714, "macro_f1": 0.9132633659841561, "mean_steps": 1.5654761904761905, "multi_n": 703, "multi_accuracy": 0.9118065433854907, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 1, "elapsed_s": 29.8522876650095, "actor_loss": -0.06961893847093303, "critic_loss": 12.811902198385685, "actor_grad_max": 1.7066401243209839, "critic_grad_max": 227.28883361816406}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9279761904761905, "macro_f1": 0.9221265117347104, "mean_steps": 1.5410714285714286, "multi_n": 703, "multi_accuracy": 0.9274537695590327, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 2, "elapsed_s": 28.578349182847887, "actor_loss": -0.06808652473673066, "critic_loss": 10.976022456554656, "actor_grad_max": 0.7782073616981506, "critic_grad_max": 119.0901870727539}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9333333333333333, "macro_f1": 0.9287832280307481, "mean_steps": 1.5339285714285715, "multi_n": 703, "multi_accuracy": 0.9402560455192034, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 3, "elapsed_s": 29.14684069575742, "actor_loss": -0.04801379253176299, "critic_loss": 10.077238818432422, "actor_grad_max": 0.6496639847755432, "critic_grad_max": 114.35163116455078}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9285714285714286, "macro_f1": 0.9222191910106666, "mean_steps": 1.5214285714285714, "multi_n": 703, "multi_accuracy": 0.9288762446657184, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 4, "elapsed_s": 27.60800409503281, "actor_loss": -0.0652171706661899, "critic_loss": 10.011708777001564, "actor_grad_max": 4.0030741691589355, "critic_grad_max": 113.63389587402344}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9333333333333333, "macro_f1": 0.9287946145157496, "mean_steps": 1.5232142857142856, "multi_n": 703, "multi_accuracy": 0.9402560455192034, "wrong_elimination_rate": 0.004166666666666667, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 5, "elapsed_s": 25.281113550066948, "actor_loss": -0.043292141935609756, "critic_loss": 9.778060344939536, "actor_grad_max": 0.8247359395027161, "critic_grad_max": 85.10181427001953}
+[MEF] ALL PASS
+TEST START: 2026年 11月 27日 星期五 21:17:42 CST
+[CACHE] HIT test-0.pt shape=(16, 15, 15) elapsed=0.071s
+[CACHE] HIT test-1.pt shape=(16, 15, 15) elapsed=0.006s
+[CACHE] HIT test-2.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-3.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-4.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-5.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-6.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-7.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-8.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-9.pt shape=(16, 15, 15) elapsed=0.005s
+[MEF] FINAL {"n": 2400, "accuracy": 0.7329166666666667, "macro_f1": 0.7284997457616583, "mean_steps": 1.6995833333333332, "multi_n": 1129, "multi_accuracy": 0.6368467670504872, "wrong_elimination_rate": 0.042083333333333334, "first_accuracy": 0.59125, "voting_accuracy": 0.8, "e1_voting_accuracy": 0.66}
+[MEF] ALL PASS
+COMPLETED: GPU=1 SEED=3403 MODE=fusion_mask
+FINISH TIME: 2026年 11月 27日 星期五 21:17:48 CST
+========== GPU 1 | SEED 3403 | mef ==========
+TRAIN START: 2026年 11月 27日 星期五 21:17:48 CST
+[CACHE] HIT train.pt shape=(16, 105, 15) elapsed=0.071s
+[MEF] EPOCH {"n": 1680, "accuracy": 0.924404761904762, "macro_f1": 0.9161418133109794, "mean_steps": 1.5589285714285714, "multi_n": 703, "multi_accuracy": 0.918918918918919, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 1, "elapsed_s": 28.75017014099285, "actor_loss": -0.06734228700874968, "critic_loss": 12.823606531670753, "actor_grad_max": 5.1697187423706055, "critic_grad_max": 217.72360229492188}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9452380952380952, "macro_f1": 0.9427382336342586, "mean_steps": 1.5184523809523809, "multi_n": 703, "multi_accuracy": 0.968705547652916, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 2, "elapsed_s": 27.640427340753376, "actor_loss": -0.048031199465882274, "critic_loss": 9.563450052383098, "actor_grad_max": 2.792160987854004, "critic_grad_max": 113.01393127441406}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9452380952380952, "macro_f1": 0.9428750560828874, "mean_steps": 1.5273809523809523, "multi_n": 703, "multi_accuracy": 0.968705547652916, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 3, "elapsed_s": 28.08567837625742, "actor_loss": -0.0537757656358658, "critic_loss": 9.644402514112757, "actor_grad_max": 1.096735954284668, "critic_grad_max": 116.83364868164062}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9446428571428571, "macro_f1": 0.9420337541676761, "mean_steps": 1.5208333333333333, "multi_n": 703, "multi_accuracy": 0.9672830725462305, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 4, "elapsed_s": 25.90253579383716, "actor_loss": -0.055481514992549066, "critic_loss": 9.325790527019095, "actor_grad_max": 3.8077051639556885, "critic_grad_max": 114.66175842285156}
+[MEF] EPOCH {"n": 1680, "accuracy": 0.9416666666666667, "macro_f1": 0.9386355857743036, "mean_steps": 1.5095238095238095, "multi_n": 703, "multi_accuracy": 0.9601706970128022, "wrong_elimination_rate": 0.0, "first_accuracy": 0.718452380952381, "voting_accuracy": 0.9333333333333333, "epoch": 5, "elapsed_s": 26.560754336882383, "actor_loss": -0.052762672661783847, "critic_loss": 9.1845771708387, "actor_grad_max": 2.015270709991455, "critic_grad_max": 88.31371307373047}
+[MEF] ALL PASS
+TEST START: 2026年 11月 27日 星期五 21:20:12 CST
+[CACHE] HIT test-0.pt shape=(16, 15, 15) elapsed=0.072s
+[CACHE] HIT test-1.pt shape=(16, 15, 15) elapsed=0.006s
+[CACHE] HIT test-2.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-3.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-4.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-5.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-6.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-7.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-8.pt shape=(16, 15, 15) elapsed=0.005s
+[CACHE] HIT test-9.pt shape=(16, 15, 15) elapsed=0.005s
+[MEF] FINAL {"n": 2400, "accuracy": 0.79125, "macro_f1": 0.7851410711610209, "mean_steps": 1.74125, "multi_n": 1129, "multi_accuracy": 0.7608503100088574, "wrong_elimination_rate": 0.0, "first_accuracy": 0.59125, "voting_accuracy": 0.8, "e1_voting_accuracy": 0.7799999999999999}
+[MEF] ALL PASS
+COMPLETED: GPU=1 SEED=3403 MODE=mef
+FINISH TIME: 2026年 11月 27日 星期五 21:20:18 CST
+========== GPU 1 WORKER FINISHED ==========

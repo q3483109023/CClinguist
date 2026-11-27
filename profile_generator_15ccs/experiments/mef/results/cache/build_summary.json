@@ -1,0 +1,112 @@
+[
+  {
+    "file": "train.pt",
+    "shape": [
+      16,
+      105,
+      15
+    ],
+    "elapsed_s": 115.18687653215602,
+    "sha256": "85c03adf80a041d987cb4a259e7871abadc6980d6c59a98aa2d72f26afd0b0c1"
+  },
+  {
+    "file": "test-0.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.57857131678611,
+    "sha256": "612716467cfcf369e7efa0629f05fb9cb46f29078059dbdbebaf59ea9cf856fd"
+  },
+  {
+    "file": "test-1.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.69601583434269,
+    "sha256": "2c3a6e0d1c8db787da718a9835c4f50909eb2f47f914d48fca9a34458d8740d1"
+  },
+  {
+    "file": "test-2.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.9130607410334,
+    "sha256": "756732df857549d2887a6260ab298bc6baa0f6cc50df842437d291aaca476d7d"
+  },
+  {
+    "file": "test-3.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.80957636004314,
+    "sha256": "30420905a31e647b7e9d91be876f2366211190938056e3af2431c16e83985878"
+  },
+  {
+    "file": "test-4.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 120.01105525810272,
+    "sha256": "72bed714ca30cd48cdd326cfae273ee6d9146c0eed3ead03cc4fe99e7fb44032"
+  },
+  {
+    "file": "test-5.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.74565313011408,
+    "sha256": "6a33aeda5c30dc97c717a2a666068da2c351a3e9b8c05ec43392324690d45ced"
+  },
+  {
+    "file": "test-6.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.93524905014783,
+    "sha256": "3a91c187a3131e8c037999dba969487d53c78884949d367180dac8ce5ff54ec9"
+  },
+  {
+    "file": "test-7.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.97429604129866,
+    "sha256": "0086d10695948a63fb9b2fad6ba17ef4278c927903689c8b022551efb37eb43b"
+  },
+  {
+    "file": "test-8.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.78363993996754,
+    "sha256": "1a919757d56ec35a7b80c6779cb32a7d7b75dce0bd02f324f132bac24a42db40"
+  },
+  {
+    "file": "test-9.pt",
+    "shape": [
+      16,
+      15,
+      15
+    ],
+    "elapsed_s": 119.41740245185792,
+    "sha256": "5a204211dcb96aa15b5c21dab14ae3b1f6d6d3acf9c76190ae2f2493b552f5d6"
+  }
+]
