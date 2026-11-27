@@ -1,0 +1,3875 @@
+============================================================================================
+============================================================================================
+[MEF] Evidence fusion unit checks PASS
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=0
+[MEF] TEST {"n": 384, "accuracy": 0.6276041666666666, "macro_f1": 0.6141233388466365, "mean_steps": 1.2630208333333333, "multi_n": 77, "multi_accuracy": 0.6103896103896104, "wrong_elimination_rate": 0.059895833333333336, "first_accuracy": 0.5546875, "voting_accuracy": 0.5, "index": 0}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=1
+[MEF] TEST {"n": 384, "accuracy": 0.6744791666666666, "macro_f1": 0.6716268342174726, "mean_steps": 1.2057291666666667, "multi_n": 71, "multi_accuracy": 0.9436619718309859, "wrong_elimination_rate": 0.010416666666666666, "first_accuracy": 0.5755208333333334, "voting_accuracy": 0.6666666666666666, "index": 1}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=2
+[MEF] TEST {"n": 384, "accuracy": 0.640625, "macro_f1": 0.6357949109670312, "mean_steps": 1.2083333333333333, "multi_n": 71, "multi_accuracy": 0.7887323943661971, "wrong_elimination_rate": 0.028645833333333332, "first_accuracy": 0.5442708333333334, "voting_accuracy": 0.4166666666666667, "index": 2}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=3
+[MEF] TEST {"n": 384, "accuracy": 0.6276041666666666, "macro_f1": 0.630841187124752, "mean_steps": 1.2291666666666667, "multi_n": 79, "multi_accuracy": 0.8481012658227848, "wrong_elimination_rate": 0.03125, "first_accuracy": 0.5078125, "voting_accuracy": 0.3333333333333333, "index": 3}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=4
+[MEF] TEST {"n": 384, "accuracy": 0.6510416666666666, "macro_f1": 0.6461464928267414, "mean_steps": 1.2213541666666667, "multi_n": 69, "multi_accuracy": 0.782608695652174, "wrong_elimination_rate": 0.03125, "first_accuracy": 0.5703125, "voting_accuracy": 0.5, "index": 4}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=5
+[MEF] TEST {"n": 384, "accuracy": 0.6067708333333334, "macro_f1": 0.6053877986993131, "mean_steps": 1.1875, "multi_n": 69, "multi_accuracy": 0.7536231884057971, "wrong_elimination_rate": 0.018229166666666668, "first_accuracy": 0.5286458333333334, "voting_accuracy": 0.25, "index": 5}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=6
+[MEF] TEST {"n": 384, "accuracy": 0.6015625, "macro_f1": 0.5920932597147001, "mean_steps": 1.2213541666666667, "multi_n": 77, "multi_accuracy": 0.7402597402597403, "wrong_elimination_rate": 0.028645833333333332, "first_accuracy": 0.5234375, "voting_accuracy": 0.3333333333333333, "index": 6}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=7
+[MEF] TEST {"n": 384, "accuracy": 0.625, "macro_f1": 0.6162801756200921, "mean_steps": 1.1640625, "multi_n": 60, "multi_accuracy": 0.6333333333333333, "wrong_elimination_rate": 0.036458333333333336, "first_accuracy": 0.578125, "voting_accuracy": 0.4166666666666667, "index": 7}
+train_data_num:  5
+env: rtt_160ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_320ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_360ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_280ms_bdw_400Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_160ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_120ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_400ms_bdw_1000Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_200ms_bdw_600Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+env: rtt_240ms_bdw_800Kbps =================================================================
+bbr
+bic
+cubic
+highspeed
+htcp
+illinois
+reno
+scalable
+vegas
+veno
+westwood
+yeah
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+max_length: 512, type: <class 'int'>
+[MEF] Observations PASS: (32, 12, 12) index=8
+[MEF] TEST {"n": 384, "accuracy": 0.5859375, "macro_f1": 0.5783154073040536, "mean_steps": 1.2083333333333333, "multi_n": 73, "multi_accuracy": 0.6027397260273972, "wrong_elimination_rate": 0.044270833333333336, "first_accuracy": 0.5364583333333334, "voting_accuracy": 0.4166666666666667, "index": 8}
+[MEF] FINAL {"n": 3456, "accuracy": 0.6267361111111112, "macro_f1": 0.6252396363248418, "mean_steps": 1.2120949074074074, "multi_n": 646, "multi_accuracy": 0.7461300309597523, "wrong_elimination_rate": 0.03211805555555555, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.3333333333333333, "e1_voting_accuracy": 0.4259259259259259}
+[MEF] ALL PASS

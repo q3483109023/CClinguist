@@ -1,0 +1,31 @@
+{
+  "phase": "test",
+  "mode": "mef",
+  "train_data": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/data_12ccs/simulation_pk2hk_12_20",
+  "shared": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/mef/shared",
+  "classifier": "/home/zhuangyr/dl-workspace/projects/CClinguist/profile_generator_12ccs/models/best_model_accuracy.pth.tar",
+  "out": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/mef/train-20261127-113059/test/mef",
+  "checkpoint": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/mef/train-20261127-113059/mef/epoch-5.pt",
+  "seed": 3402,
+  "epochs": 5,
+  "batch_size": 36,
+  "k_epochs": 10,
+  "max_steps": 7,
+  "max_batches": 0,
+  "decay": 0.5,
+  "threshold": 0.7,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "classifier_sha256": "0355c5391a3cb877020213127ddd5533e2cfcc0b56aef57d4fa3568a6cba8d02",
+  "dtw_sha256": "deec8fb07dba2dd1dab0db0083f49fd73d805027fa31f0aedb45f8bc9323446f"
+}
