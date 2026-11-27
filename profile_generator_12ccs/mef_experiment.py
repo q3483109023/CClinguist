@@ -43,6 +43,9 @@ def seed_all(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed_all(seed)
     torch.backends.cudnn.benchmark = False
+    torch.backends.cudnn.deterministic = True
+    torch.backends.cudnn.allow_tf32 = False
+    torch.backends.cuda.matmul.allow_tf32 = False
 
 
 def load_dtw(shared, path, split, device):
@@ -102,7 +105,10 @@ def distribution(policy, state, dtw, blocked):
     features_c = policy.cnn_layer_critic(x).reshape(b,e,-1)
     logits = policy.actor[:-1](features_a).squeeze(-1)
     assert (~blocked).any(-1).all()
-    dist = Categorical(logits=logits.masked_fill(blocked, -torch.inf))
+    assert torch.isfinite(logits).all(), "Non-finite actor logits"
+    logits = logits.masked_fill(blocked, -torch.inf)
+    logits = logits - logits.max(-1,keepdim=True).values
+    dist = Categorical(logits=logits)
     value = policy.critic(features_c).squeeze(-1).mean(-1)
     return dist, value
 
@@ -222,9 +228,6 @@ def update(policy, dtw, buf, actor_opt, critic_opt, args):
         returns.insert(0,ret)
     state,blocked,a,lp,val,active,_,learn = zip(*buf)
     active = torch.cat(active)
-    state = torch.cat(state)[active]
-    blocked = torch.cat(blocked)[active]
-    a = torch.cat(a)[active]
     old_lp = torch.cat(lp)[active]
     val = torch.cat(val)[active]
     returns = torch.cat(returns)[active]
@@ -235,14 +238,27 @@ def update(policy, dtw, buf, actor_opt, critic_opt, args):
         advantage = advantage.clone()
         advantage[learn] = (adv-adv.mean()) / adv.std(unbiased=False).clamp_min(1e-6)
     # The initially forced profile is not an action sampled by PPO.
+    def replay():
+        # Preserve the rollout batch shape for each timestep: convolution and
+        # matrix kernels may otherwise change floating-point reduction order.
+        logs, values, entropies = [], [], []
+        for item in buf:
+            d, v = distribution(policy,item[0],dtw,item[1])
+            logs.append(d.log_prob(item[2]))
+            values.append(v)
+            entropies.append(d.entropy())
+        return tuple(torch.cat(x)[active] for x in (logs,values,entropies))
+
     with torch.no_grad():
-        d,v = distribution(policy,state,dtw,blocked)
-        assert torch.allclose(d.log_prob(a),old_lp,atol=2e-5,rtol=2e-5)
-        assert torch.allclose(v,val,atol=2e-5,rtol=2e-5)
+        lp_new,v,_ = replay()
+        lp_err = (lp_new-old_lp).abs().max().item()
+        v_err = (v-val).abs().max().item()
+        assert torch.allclose(lp_new,old_lp,atol=2e-5,rtol=2e-5), f"LogProb replay mismatch: max_abs={lp_err:.8g}"
+        assert torch.allclose(v,val,atol=2e-5,rtol=2e-5), f"Value replay mismatch: max_abs={v_err:.8g}"
     loss_a = 0.0
     grad_a = 0.0
     for _ in range(args.k_epochs):
-        dist,value = distribution(policy,state,dtw,blocked)
+        new_lp,value,entropy = replay()
         loss_c = F.l1_loss(value,returns)
         critic_opt.zero_grad(set_to_none=True)
         loss_c.backward()
@@ -251,10 +267,10 @@ def update(policy, dtw, buf, actor_opt, critic_opt, args):
         assert torch.isfinite(grad_c)
         critic_opt.step()
         if learn.any():
-            ratio = (dist.log_prob(a)[learn]-old_lp[learn]).exp()
+            ratio = (new_lp[learn]-old_lp[learn]).exp()
             adv = advantage[learn]
             loss = -torch.minimum(ratio*adv,ratio.clamp(.8,1.2)*adv).mean()
-            loss -= .01*dist.entropy()[learn].mean()
+            loss -= .01*entropy[learn].mean()
             actor_opt.zero_grad(set_to_none=True)
             loss.backward()
             grad_a = torch.nn.utils.clip_grad_norm_(
