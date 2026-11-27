@@ -75,17 +75,20 @@ def normalize(p):
 def update_evidence(p, previous, mask, mode, decay, first):
     if mode == "baseline":
         return normalize(p * mask)
-    if first:
+    if mode == "no_mask" or first:
         return p
-    return torch.softmax(decay * previous.clamp_min(EPS).log()
-                         + p.clamp_min(EPS).log(), dim=-1)
+    fused = torch.softmax(decay * previous.clamp_min(EPS).log()
+                          + p.clamp_min(EPS).log(), dim=-1)
+    if mode == "fusion_mask":
+        return normalize(fused * mask)
+    return fused
 
 
 def next_state(p, previous, mask, mode, decay, first, threshold=0.7):
     belief = update_evidence(p, previous, mask, mode, decay, first)
     pred = belief.argmax(-1)
     confident = belief.max(-1).values >= threshold
-    if mode == "baseline":
+    if mode in ("baseline", "fusion_mask"):
         keep = (belief > 0.3 / K) | F.one_hot(pred, K).bool()
         new_mask = torch.where(confident[:,None], mask, mask & keep)
         state = normalize(belief * new_mask)
@@ -311,6 +314,19 @@ def self_test(device):
     f = update_evidence(q,p,ones,"mef",.5,False)
     assert torch.allclose(f,normalize(p.sqrt()*q),atol=1e-6)
     assert (f>0).all()
+    hard = torch.tensor([[True, True, False]], device=device)
+    assert torch.allclose(update_evidence(q,p,hard,"no_mask",.5,False),q)
+    assert torch.allclose(update_evidence(q,p,hard,"baseline",.5,False),normalize(q*hard))
+    fm = update_evidence(q,p,hard,"fusion_mask",.5,False)
+    assert torch.allclose(fm,normalize(f*hard),atol=1e-6)
+    assert fm[0,2] == 0
+    # Check pruning behavior on the actual twelve-class state size.
+    p12 = torch.tensor([[.6,.39]+[.001]*10],device=device)
+    mask12 = torch.ones_like(p12,dtype=torch.bool)
+    for mode in ("baseline","no_mask","fusion_mask","mef"):
+        s,m,_,_,_ = next_state(p12,p12,mask12,mode,.5,True)
+        assert torch.allclose(s.sum(-1),torch.ones(1,device=device))
+        assert bool(m[0,2]) == (mode in ("no_mask","mef"))
     print("[MEF] Evidence fusion unit checks PASS",flush=True)
 
 
@@ -396,7 +412,7 @@ def main(args):
 if __name__=="__main__":
     p=argparse.ArgumentParser(description=__doc__)
     p.add_argument("--phase",choices=["train","test"],default="train")
-    p.add_argument("--mode",choices=["baseline","mef"],required=True)
+    p.add_argument("--mode",choices=["baseline","no_mask","fusion_mask","mef"],required=True)
     for key in ["train-data","test-data","shared","classifier","out"]:
         p.add_argument("--"+key,type=Path,required=True)
     p.add_argument("--checkpoint",type=Path)
