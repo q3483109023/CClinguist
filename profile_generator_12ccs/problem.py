@@ -327,7 +327,7 @@ class Dataset(object):
  
         target_alo_list=['htcp','bbr', 'vegas', 'westwood', 'scalable', 'highspeed', 'veno', 'reno', 'yeah', 'illinois', 'bic', 'cubic']
         if self.dtw_path is None:
-            
+            print("dtw_path 为空，按 DTW_MODE 重新计算距离表（original=原版，band=弯曲窗口）")
             dtw_result=compute_dtw([self.x_trace,self.y,self.x_env_id],data_path=None)
             
 

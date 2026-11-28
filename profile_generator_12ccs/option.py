@@ -38,7 +38,7 @@ def get_options(args=None):
                             default=os.path.join(base_dir, 'models', 'best_model_accuracy.pth.tar'),
                             help='Path to load classifier model from')     
         parser.add_argument('--num_cluster', type=int, default=12 , help='Number of clusters')  
-        parser.add_argument('--dtw_path', type=str, default= os.path.join(base_dir, 'dtw_matrix.txt'), help='Path to DTW data')
+        parser.add_argument('--dtw_path', type=str, default=None, help='为空则用弯曲窗口 DTW 重新计算距离表')
     
 
     if flag==1: 
@@ -55,7 +55,7 @@ def get_options(args=None):
                             default=os.path.join(base_dir, 'models', 'best_model_accuracy.pth.tar'),
                             help='Path to load classifier model from')     
         parser.add_argument('--num_cluster', type=int, default=12 , help='Number of clusters')    
-        parser.add_argument('--dtw_path', type=str, default=os.path.join(base_dir, 'dtw_matrix.txt'), help='Path to DTW data')
+        parser.add_argument('--dtw_path', type=str, default=None, help='为空则用弯曲窗口 DTW 重新计算距离表')
     
     
 

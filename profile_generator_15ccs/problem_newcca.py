@@ -384,12 +384,20 @@ class Dataset(object):
         
         
         if self.dtw_path is None:
-            
+            print("dtw_path 为空，按 DTW_MODE 重新计算距离表（original=原版，band=弯曲窗口）")
             dtw_result=compute_dtw([self.x_trace,self.y,self.x_env_id], num_cluster, data_path=None)
 
             if dtw_result is not None:
-                output_file = "/home/ml4net/LJH/EFAAA/1209_cclinguist/dtw_matrix_14CCs.txt"
-                print(f"[Debug] dtw_path is None (training mode). Save computed dtw to {output_file}")
+                mode = os.environ.get("DTW_MODE", "band").strip().lower()
+                named_files = {
+                    "original": "dtw_matrix_original_named.txt",
+                    "python": "dtw_matrix_python_named.txt",
+                    "band": "dtw_matrix_band_named.txt",
+                    "cband": "dtw_matrix_cband_named.txt",
+                }
+                out_name = named_files.get(mode, "dtw_matrix_band_named.txt")
+                output_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), out_name)
+                print(f"[Debug] dtw_path is None. Save computed dtw to {output_file}")
                 save_dtw_as_readable_txt(dtw_result, target_alo_list, output_file)
                 print("[Debug] dtw_result has been saved in tabular format.")
             else:

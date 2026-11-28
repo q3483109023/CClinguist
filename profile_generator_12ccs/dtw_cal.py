@@ -54,12 +54,48 @@ def load_data(path):
             dic_alos[alo].append(trace)  
     return dic_envs,dic_alos,envs,alos  
             
-def dtw_similarity(data1,data2):
+import sys
+import time
+_opt_dir = os.path.abspath(os.path.join(base_dir, "..", "dtw_opt"))
+if _opt_dir not in sys.path:
+    sys.path.insert(0, _opt_dir)
+from dtw_band import dtw_distance_band
+from dtw_cband import dtw_distance_cband
+from dtw_original import comparison_notice, dtw_distance
+from labeled_matrix import distance_matrix_by_label, write_labeled_matrix, as_int
 
-    alignment = dtw(data1,data2,dist_method='euclidean',keep_internals = True)
+_MATRIX_FILES = {
+    "original": "dtw_matrix_original.txt",
+    "python": "dtw_matrix_python.txt",
+    "band": "dtw_matrix_band.txt",
+    "cband": "dtw_matrix_cband.txt",
+}
 
-    dis=alignment.distance/(max(len(data1),len(data2)))
+
+def dtw_mode():
+    """original 用 dtw 库整表，cband 用同一库的 10% 窗口，python 与 band 走 Python。未设置时为 band。"""
+    mode = os.environ.get("DTW_MODE", "band").strip().lower()
+    if mode not in _MATRIX_FILES:
+        raise ValueError("DTW_MODE 只能是 original、python、band 或 cband")
+    return mode
+
+
+def dtw_similarity_original(data1, data2):
+    """原论文的完整 DTW，保留不删。"""
+    alignment = dtw(data1, data2, dist_method='euclidean', keep_internals=True)
+    dis = alignment.distance / (max(len(data1), len(data2)))
     return dis
+
+
+def dtw_similarity(data1, data2):
+    mode = dtw_mode()
+    if mode == "original":
+        return dtw_similarity_original(data1, data2)
+    if mode == "python":
+        return dtw_distance(data1, data2, band_ratio=None)
+    if mode == "cband":
+        return dtw_distance_cband(data1, data2, band_ratio=0.1)
+    return dtw_distance_band(data1, data2, band_ratio=0.1)
 
 def resample(data1, data2, alpha=0.75):
     # Re-sample the data using linear interpolation with a sampling interval of 5 ms
@@ -76,34 +112,49 @@ def resample(data1, data2, alpha=0.75):
     return new_y_1, new_y_2
         
 
-def compute_dtw(data,data_path=None):
-    
-    if data_path is not None:
-        dic_envs,dic_alos,envs,alos=load_data(data_path)
-    else:
-        dic_envs,dic_alos,envs,alos=load_data_arrivetime(data)
+def _compute_dtw_from_directory():
+    """目录里的曲线仍按读入顺序填表。run.py 不走这条路径。"""
+    dic_envs, dic_alos, envs, alos = load_data(data_path)
+    mode = dtw_mode()
+    out_path = os.path.join(base_dir, _MATRIX_FILES[mode])
+    print(f"DTW 模式: {mode}，距离表将写入 {out_path}")
+    print(comparison_notice(mode))
+    started = time.perf_counter()
+    f = open(out_path, 'w')
+    num_alos = len(dic_alos)
+    num_envs = len(dic_envs)
 
-    f = open(os.path.join(base_dir, 'dtw_matrix.txt'),'w')
-    row_data=[]
-    num_alos=len(dic_alos)
-    num_envs=len(dic_envs)
-    
-    matrix_dtw=np.zeros((num_envs,num_alos,num_alos))        
-    for env in dic_envs:    
-        id_env=list(dic_envs.keys()).index(env)
+    matrix_dtw = np.zeros((num_envs, num_alos, num_alos))
+    for env in dic_envs:
+        id_env = list(dic_envs.keys()).index(env)
         for i in range(len(dic_alos)):
-            for j in range(i,len(dic_alos)):
-                
-                data1=dic_envs[env][i]
-                data2=dic_envs[env][j]
+            for j in range(i, len(dic_alos)):
+                data1 = dic_envs[env][i]
+                data2 = dic_envs[env][j]
+                dis = dtw_similarity(data1[:, 1], data2[:, 1])
+                matrix_dtw[id_env, i, j] = dis
+                matrix_dtw[id_env, j, i] = dis
+                f.write(f"{env}\t{i}\t{j}\t{dis}\n")
+    f.close()
+    print(f"DTW 距离表计算耗时 {time.perf_counter() - started:.2f} s")
+    return matrix_dtw
 
 
-                dis=dtw_similarity(data1[:,1],data2[:,1])
-                matrix_dtw[id_env,i,j]=dis
-                matrix_dtw[id_env,j,i]=dis
-                
-                f.write(f"{env}\t{i}\t{j}\t{dis}\n")  
-          
+def compute_dtw(data, data_path=None):
+    if data_path is not None:
+        return _compute_dtw_from_directory()
+
+    traces, labels, envs = data
+    num_alos = max(as_int(label) for label in labels) + 1
+    mode = dtw_mode()
+    out_path = os.path.join(base_dir, _MATRIX_FILES[mode])
+    print(f"DTW 模式: {mode}，距离表将写入 {out_path}")
+    print(comparison_notice(mode))
+    print(f"距离表按类别编号填写，边长 {num_alos}，每个类别取中间那一条曲线")
+    started = time.perf_counter()
+    matrix_dtw = distance_matrix_by_label(traces, labels, envs, num_alos, dtw_similarity)
+    write_labeled_matrix(out_path, matrix_dtw)
+    print(f"DTW 距离表计算耗时 {time.perf_counter() - started:.2f} s")
     return matrix_dtw
     
                 
