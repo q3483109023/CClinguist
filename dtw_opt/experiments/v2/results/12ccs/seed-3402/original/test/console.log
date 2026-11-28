@@ -1,0 +1,23 @@
+============================================================================================
+============================================================================================
+[MEF] Evidence fusion unit checks PASS
+[CACHE] HIT test-0.pt shape=(32, 12, 12) elapsed=0.102s
+[MEF] TEST {"n": 384, "accuracy": 0.6223958333333334, "macro_f1": 0.6100785479238879, "mean_steps": 1.2213541666666667, "multi_n": 77, "multi_accuracy": 0.5844155844155844, "wrong_elimination_rate": 0.041666666666666664, "first_accuracy": 0.5546875, "voting_accuracy": 0.5, "index": 0}
+[CACHE] HIT test-1.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.5859375, "macro_f1": 0.5704983323238012, "mean_steps": 1.1953125, "multi_n": 71, "multi_accuracy": 0.4647887323943662, "wrong_elimination_rate": 0.020833333333333332, "first_accuracy": 0.5755208333333334, "voting_accuracy": 0.5, "index": 1}
+[CACHE] HIT test-2.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.609375, "macro_f1": 0.59750299819403, "mean_steps": 1.2057291666666667, "multi_n": 71, "multi_accuracy": 0.6197183098591549, "wrong_elimination_rate": 0.028645833333333332, "first_accuracy": 0.5442708333333334, "voting_accuracy": 0.4166666666666667, "index": 2}
+[CACHE] HIT test-3.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.5729166666666666, "macro_f1": 0.5624591142900092, "mean_steps": 1.2291666666666667, "multi_n": 79, "multi_accuracy": 0.5822784810126582, "wrong_elimination_rate": 0.03125, "first_accuracy": 0.5078125, "voting_accuracy": 0.3333333333333333, "index": 3}
+[CACHE] HIT test-4.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.5989583333333334, "macro_f1": 0.5953611256031054, "mean_steps": 1.1953125, "multi_n": 69, "multi_accuracy": 0.4927536231884058, "wrong_elimination_rate": 0.03125, "first_accuracy": 0.5703125, "voting_accuracy": 0.4166666666666667, "index": 4}
+[CACHE] HIT test-5.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.625, "macro_f1": 0.6222542499785858, "mean_steps": 1.2265625, "multi_n": 69, "multi_accuracy": 0.855072463768116, "wrong_elimination_rate": 0.018229166666666668, "first_accuracy": 0.5286458333333334, "voting_accuracy": 0.3333333333333333, "index": 5}
+[CACHE] HIT test-6.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.5598958333333334, "macro_f1": 0.543302188055634, "mean_steps": 1.2057291666666667, "multi_n": 77, "multi_accuracy": 0.5324675324675324, "wrong_elimination_rate": 0.03125, "first_accuracy": 0.5234375, "voting_accuracy": 0.3333333333333333, "index": 6}
+[CACHE] HIT test-7.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.6171875, "macro_f1": 0.6083768637648075, "mean_steps": 1.1666666666666667, "multi_n": 60, "multi_accuracy": 0.5833333333333334, "wrong_elimination_rate": 0.036458333333333336, "first_accuracy": 0.578125, "voting_accuracy": 0.3333333333333333, "index": 7}
+[CACHE] HIT test-8.pt shape=(32, 12, 12) elapsed=0.005s
+[MEF] TEST {"n": 384, "accuracy": 0.5677083333333334, "macro_f1": 0.5606012891658892, "mean_steps": 1.2265625, "multi_n": 73, "multi_accuracy": 0.5068493150684932, "wrong_elimination_rate": 0.044270833333333336, "first_accuracy": 0.5364583333333334, "voting_accuracy": 0.4166666666666667, "index": 8}
+[MEF] FINAL {"n": 3456, "accuracy": 0.5954861111111112, "macro_f1": 0.5916808957319267, "mean_steps": 1.2080439814814814, "multi_n": 646, "multi_accuracy": 0.5789473684210527, "wrong_elimination_rate": 0.03153935185185185, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.25, "e1_voting_accuracy": 0.39814814814814814}
+[MEF] ALL PASS

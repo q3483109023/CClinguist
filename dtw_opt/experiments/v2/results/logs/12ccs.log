@@ -1,0 +1,61 @@
+{
+  "classes": 12,
+  "pairs": 2838,
+  "equal_pairs": 318,
+  "mean_distance_increase": 0.09135566123019974,
+  "max_distance_increase": 0.5813185054657787,
+  "timings": {
+    "original": [
+      {
+        "wall_s": 16.47895178431645,
+        "cpu_s": 16.478496463
+      },
+      {
+        "wall_s": 16.459528025239706,
+        "cpu_s": 16.459717263000016
+      },
+      {
+        "wall_s": 16.484041585121304,
+        "cpu_s": 16.48416854300001
+      }
+    ],
+    "cband": [
+      {
+        "wall_s": 11.310250807087868,
+        "cpu_s": 11.31031992200002
+      },
+      {
+        "wall_s": 11.257437575608492,
+        "cpu_s": 11.257561092999993
+      },
+      {
+        "wall_s": 11.29050671774894,
+        "cpu_s": 11.290553816
+      }
+    ]
+  },
+  "median_wall_s": {
+    "original": 16.47895178431645,
+    "cband": 11.29050671774894
+  },
+  "median_cpu_s": {
+    "original": 16.478496463,
+    "cband": 11.290553816
+  },
+  "wall_speedup": 1.45954049683272,
+  "cpu_speedup": 1.4594940807640537
+}
+TRAIN 12 original 2026年 11月 28日 星期六 12:06:11 CST
+TEST 12 original 2026年 11月 28日 星期六 12:09:39 CST
+[MEF] FINAL {"n": 3456, "accuracy": 0.5954861111111112, "macro_f1": 0.5916808957319267, "mean_steps": 1.2080439814814814, "multi_n": 646, "multi_accuracy": 0.5789473684210527, "wrong_elimination_rate": 0.03153935185185185, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.25, "e1_voting_accuracy": 0.39814814814814814}
+TRAIN 12 cband 2026年 11月 28日 星期六 12:09:45 CST
+TEST 12 cband 2026年 11月 28日 星期六 12:13:36 CST
+[MEF] FINAL {"n": 3456, "accuracy": 0.6235532407407407, "macro_f1": 0.6214779675471864, "mean_steps": 1.2077546296296295, "multi_n": 646, "multi_accuracy": 0.7291021671826625, "wrong_elimination_rate": 0.03269675925925926, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.42592592592592593}
+original {"n": 3456, "accuracy": 0.5954861111111112, "macro_f1": 0.5916808957319267, "mean_steps": 1.2080439814814814, "multi_n": 646, "multi_accuracy": 0.5789473684210527, "wrong_elimination_rate": 0.03153935185185185, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.25, "e1_voting_accuracy": 0.39814814814814814}
+cband {"n": 3456, "accuracy": 0.6235532407407407, "macro_f1": 0.6214779675471864, "mean_steps": 1.2077546296296295, "multi_n": 646, "multi_accuracy": 0.7291021671826625, "wrong_elimination_rate": 0.03269675925925926, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.42592592592592593}
+accuracy: cband - original = +0.028067
+macro_f1: cband - original = +0.029797
+multi_accuracy: cband - original = +0.150155
+mean_steps: cband - original = -0.000289
+wrong_elimination_rate: cband - original = +0.001157
+ALL DTW V2 RUNS PASS

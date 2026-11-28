@@ -1,0 +1,136 @@
+{
+  "per_index": [
+    {
+      "n": 240,
+      "accuracy": 0.7375,
+      "macro_f1": 0.717719075536413,
+      "mean_steps": 1.9916666666666667,
+      "multi_n": 111,
+      "multi_accuracy": 0.6756756756756757,
+      "wrong_elimination_rate": 0.05416666666666667,
+      "first_accuracy": 0.5875,
+      "voting_accuracy": 0.8,
+      "index": 0
+    },
+    {
+      "n": 240,
+      "accuracy": 0.7166666666666667,
+      "macro_f1": 0.698667635507645,
+      "mean_steps": 1.8291666666666666,
+      "multi_n": 109,
+      "multi_accuracy": 0.6055045871559633,
+      "wrong_elimination_rate": 0.08333333333333333,
+      "first_accuracy": 0.5958333333333333,
+      "voting_accuracy": 0.6666666666666666,
+      "index": 1
+    },
+    {
+      "n": 240,
+      "accuracy": 0.7625,
+      "macro_f1": 0.7308264297665015,
+      "mean_steps": 1.7333333333333334,
+      "multi_n": 114,
+      "multi_accuracy": 0.7017543859649122,
+      "wrong_elimination_rate": 0.041666666666666664,
+      "first_accuracy": 0.5833333333333334,
+      "voting_accuracy": 0.8666666666666667,
+      "index": 2
+    },
+    {
+      "n": 240,
+      "accuracy": 0.825,
+      "macro_f1": 0.8261446126073488,
+      "mean_steps": 1.7541666666666667,
+      "multi_n": 120,
+      "multi_accuracy": 0.8583333333333333,
+      "wrong_elimination_rate": 0.05,
+      "first_accuracy": 0.5458333333333333,
+      "voting_accuracy": 1.0,
+      "index": 3
+    },
+    {
+      "n": 240,
+      "accuracy": 0.8541666666666666,
+      "macro_f1": 0.8521832030355119,
+      "mean_steps": 1.7208333333333334,
+      "multi_n": 111,
+      "multi_accuracy": 0.9009009009009009,
+      "wrong_elimination_rate": 0.03333333333333333,
+      "first_accuracy": 0.6083333333333333,
+      "voting_accuracy": 0.9333333333333333,
+      "index": 4
+    },
+    {
+      "n": 240,
+      "accuracy": 0.7833333333333333,
+      "macro_f1": 0.7646329197944669,
+      "mean_steps": 1.8208333333333333,
+      "multi_n": 109,
+      "multi_accuracy": 0.7798165137614679,
+      "wrong_elimination_rate": 0.058333333333333334,
+      "first_accuracy": 0.5625,
+      "voting_accuracy": 0.8,
+      "index": 5
+    },
+    {
+      "n": 240,
+      "accuracy": 0.8166666666666667,
+      "macro_f1": 0.8050503434236181,
+      "mean_steps": 1.6583333333333334,
+      "multi_n": 118,
+      "multi_accuracy": 0.8389830508474576,
+      "wrong_elimination_rate": 0.029166666666666667,
+      "first_accuracy": 0.5833333333333334,
+      "voting_accuracy": 0.8666666666666667,
+      "index": 6
+    },
+    {
+      "n": 240,
+      "accuracy": 0.8125,
+      "macro_f1": 0.7866237466044441,
+      "mean_steps": 1.9041666666666666,
+      "multi_n": 111,
+      "multi_accuracy": 0.7837837837837838,
+      "wrong_elimination_rate": 0.04583333333333333,
+      "first_accuracy": 0.6125,
+      "voting_accuracy": 0.8666666666666667,
+      "index": 7
+    },
+    {
+      "n": 240,
+      "accuracy": 0.8833333333333333,
+      "macro_f1": 0.8714093361138833,
+      "mean_steps": 1.7833333333333334,
+      "multi_n": 114,
+      "multi_accuracy": 0.8859649122807017,
+      "wrong_elimination_rate": 0.016666666666666666,
+      "first_accuracy": 0.6166666666666667,
+      "voting_accuracy": 0.9333333333333333,
+      "index": 8
+    },
+    {
+      "n": 240,
+      "accuracy": 0.8583333333333333,
+      "macro_f1": 0.8431643604529362,
+      "mean_steps": 1.8541666666666667,
+      "multi_n": 112,
+      "multi_accuracy": 0.8571428571428571,
+      "wrong_elimination_rate": 0.029166666666666667,
+      "first_accuracy": 0.6166666666666667,
+      "voting_accuracy": 0.9333333333333333,
+      "index": 9
+    }
+  ],
+  "aggregate": {
+    "n": 2400,
+    "accuracy": 0.805,
+    "macro_f1": 0.8025831360124677,
+    "mean_steps": 1.805,
+    "multi_n": 1129,
+    "multi_accuracy": 0.7900797165633304,
+    "wrong_elimination_rate": 0.04416666666666667,
+    "first_accuracy": 0.59125,
+    "voting_accuracy": 0.7333333333333333,
+    "e1_voting_accuracy": 0.8666666666666668
+  }
+}

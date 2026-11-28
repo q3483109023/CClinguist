@@ -1,0 +1,32 @@
+{
+  "phase": "test",
+  "mode": "baseline",
+  "train_data": "data_12ccs/simulation_hk2jp_1201to1203",
+  "test_data": "data_12ccs/simulation_pk2hk_12_20",
+  "shared": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/12ccs/shared/cband",
+  "classifier": "models/best_model_accuracy.pth.tar",
+  "out": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/12ccs/seed-3404/cband/test",
+  "cache_dir": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/12ccs/cache",
+  "checkpoint": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/12ccs/seed-3404/cband/train/epoch-5.pt",
+  "seed": 3404,
+  "epochs": 5,
+  "batch_size": 36,
+  "k_epochs": 10,
+  "max_steps": 7,
+  "max_batches": 0,
+  "decay": 0.5,
+  "threshold": 0.7,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8
+  ],
+  "classifier_sha256": "0355c5391a3cb877020213127ddd5533e2cfcc0b56aef57d4fa3568a6cba8d02",
+  "dtw_sha256": "f10af45523fc87fd72bc7e1852e3387047d0353fa9fa69b065ffb740d28fa149"
+}

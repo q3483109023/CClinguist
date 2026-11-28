@@ -1,0 +1,123 @@
+nohup: 忽略输入
+{
+  "classes": 12,
+  "pairs": 2838,
+  "equal_pairs": 318,
+  "mean_distance_increase": 0.09135566123019974,
+  "max_distance_increase": 0.5813185054657787,
+  "timings": {
+    "original": [
+      {
+        "wall_s": 16.47895178431645,
+        "cpu_s": 16.478496463
+      },
+      {
+        "wall_s": 16.459528025239706,
+        "cpu_s": 16.459717263000016
+      },
+      {
+        "wall_s": 16.484041585121304,
+        "cpu_s": 16.48416854300001
+      }
+    ],
+    "cband": [
+      {
+        "wall_s": 11.310250807087868,
+        "cpu_s": 11.31031992200002
+      },
+      {
+        "wall_s": 11.257437575608492,
+        "cpu_s": 11.257561092999993
+      },
+      {
+        "wall_s": 11.29050671774894,
+        "cpu_s": 11.290553816
+      }
+    ]
+  },
+  "median_wall_s": {
+    "original": 16.47895178431645,
+    "cband": 11.29050671774894
+  },
+  "median_cpu_s": {
+    "original": 16.478496463,
+    "cband": 11.290553816
+  },
+  "wall_speedup": 1.45954049683272,
+  "cpu_speedup": 1.4594940807640537
+}
+TRAIN 12 original 2026年 11月 28日 星期六 12:15:25 CST
+TEST 12 original 2026年 11月 28日 星期六 12:19:12 CST
+[MEF] FINAL {"n": 3456, "accuracy": 0.6145833333333334, "macro_f1": 0.6132266376652278, "mean_steps": 1.2097800925925926, "multi_n": 646, "multi_accuracy": 0.6811145510835913, "wrong_elimination_rate": 0.032407407407407406, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.3333333333333333, "e1_voting_accuracy": 0.38888888888888884}
+TRAIN 12 cband 2026年 11月 28日 星期六 12:19:19 CST
+TEST 12 cband 2026年 11月 28日 星期六 12:22:57 CST
+[MEF] FINAL {"n": 3456, "accuracy": 0.6226851851851852, "macro_f1": 0.6205553887144689, "mean_steps": 1.2141203703703705, "multi_n": 646, "multi_accuracy": 0.7244582043343654, "wrong_elimination_rate": 0.033275462962962965, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.42592592592592593}
+original {"n": 3456, "accuracy": 0.6145833333333334, "macro_f1": 0.6132266376652278, "mean_steps": 1.2097800925925926, "multi_n": 646, "multi_accuracy": 0.6811145510835913, "wrong_elimination_rate": 0.032407407407407406, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.3333333333333333, "e1_voting_accuracy": 0.38888888888888884}
+cband {"n": 3456, "accuracy": 0.6226851851851852, "macro_f1": 0.6205553887144689, "mean_steps": 1.2141203703703705, "multi_n": 646, "multi_accuracy": 0.7244582043343654, "wrong_elimination_rate": 0.033275462962962965, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.42592592592592593}
+accuracy: cband - original = +0.008102
+macro_f1: cband - original = +0.007329
+multi_accuracy: cband - original = +0.043344
+mean_steps: cband - original = +0.004340
+wrong_elimination_rate: cband - original = +0.000868
+ALL DTW V2 RUNS PASS
+{
+  "classes": 12,
+  "pairs": 2838,
+  "equal_pairs": 318,
+  "mean_distance_increase": 0.09135566123019974,
+  "max_distance_increase": 0.5813185054657787,
+  "timings": {
+    "original": [
+      {
+        "wall_s": 16.47895178431645,
+        "cpu_s": 16.478496463
+      },
+      {
+        "wall_s": 16.459528025239706,
+        "cpu_s": 16.459717263000016
+      },
+      {
+        "wall_s": 16.484041585121304,
+        "cpu_s": 16.48416854300001
+      }
+    ],
+    "cband": [
+      {
+        "wall_s": 11.310250807087868,
+        "cpu_s": 11.31031992200002
+      },
+      {
+        "wall_s": 11.257437575608492,
+        "cpu_s": 11.257561092999993
+      },
+      {
+        "wall_s": 11.29050671774894,
+        "cpu_s": 11.290553816
+      }
+    ]
+  },
+  "median_wall_s": {
+    "original": 16.47895178431645,
+    "cband": 11.29050671774894
+  },
+  "median_cpu_s": {
+    "original": 16.478496463,
+    "cband": 11.290553816
+  },
+  "wall_speedup": 1.45954049683272,
+  "cpu_speedup": 1.4594940807640537
+}
+TRAIN 12 original 2026年 11月 28日 星期六 12:23:03 CST
+TEST 12 original 2026年 11月 28日 星期六 12:26:55 CST
+[MEF] FINAL {"n": 3456, "accuracy": 0.6244212962962963, "macro_f1": 0.6222944503431375, "mean_steps": 1.2135416666666667, "multi_n": 646, "multi_accuracy": 0.7337461300309598, "wrong_elimination_rate": 0.03269675925925926, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.4351851851851852}
+TRAIN 12 cband 2026年 11月 28日 星期六 12:27:01 CST
+TEST 12 cband 2026年 11月 28日 星期六 12:30:40 CST
+[MEF] FINAL {"n": 3456, "accuracy": 0.6238425925925926, "macro_f1": 0.621979510420362, "mean_steps": 1.2132523148148149, "multi_n": 646, "multi_accuracy": 0.7306501547987616, "wrong_elimination_rate": 0.03414351851851852, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.42592592592592593}
+original {"n": 3456, "accuracy": 0.6244212962962963, "macro_f1": 0.6222944503431375, "mean_steps": 1.2135416666666667, "multi_n": 646, "multi_accuracy": 0.7337461300309598, "wrong_elimination_rate": 0.03269675925925926, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.4351851851851852}
+cband {"n": 3456, "accuracy": 0.6238425925925926, "macro_f1": 0.621979510420362, "mean_steps": 1.2132523148148149, "multi_n": 646, "multi_accuracy": 0.7306501547987616, "wrong_elimination_rate": 0.03414351851851852, "first_accuracy": 0.5465856481481481, "voting_accuracy": 0.4166666666666667, "e1_voting_accuracy": 0.42592592592592593}
+accuracy: cband - original = -0.000579
+macro_f1: cband - original = -0.000315
+multi_accuracy: cband - original = -0.003096
+mean_steps: cband - original = -0.000289
+wrong_elimination_rate: cband - original = +0.001447
+ALL DTW V2 RUNS PASS

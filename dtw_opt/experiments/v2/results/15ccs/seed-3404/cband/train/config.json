@@ -1,0 +1,33 @@
+{
+  "phase": "train",
+  "mode": "baseline",
+  "train_data": "data_15ccs/simulation_pk2hk_15CCs",
+  "test_data": "data_15ccs/simulation_15CCs",
+  "shared": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/15ccs/shared/cband",
+  "classifier": "models/checkpoint_9000.pth.tar",
+  "out": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/15ccs/seed-3404/cband/train",
+  "cache_dir": "/home/zhuangyr/dl-workspace/experiment-results/CClinguist/dtw-opt-v2/first-seed3402/15ccs/cache",
+  "checkpoint": null,
+  "seed": 3404,
+  "epochs": 5,
+  "batch_size": 36,
+  "k_epochs": 10,
+  "max_steps": 7,
+  "max_batches": 0,
+  "decay": 0.5,
+  "threshold": 0.7,
+  "indices": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9
+  ],
+  "classifier_sha256": "d3418bb11319ef53a22a6a55ad52365e47f7072be9417cb6af3992288e414cfc",
+  "dtw_sha256": "993d27d873059aed555fd8f6bab9b69e3278c8ee519a928ec3a8c38e792af629"
+}
